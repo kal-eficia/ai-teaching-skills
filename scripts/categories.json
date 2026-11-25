@@ -1,0 +1,286 @@
+[
+ {
+  "category": "Start here",
+  "skills": [
+   {
+    "name": "teaching-context",
+    "summary": "Records your classes, boards, timetable and house rules once. Every other skill reads it first"
+   }
+  ]
+ },
+ {
+  "category": "Planning and curriculum",
+  "skills": [
+   {
+    "name": "lesson-pack-builder",
+    "summary": "A full, teachable pack: teacher plan, interactive student page, homework, mark scheme and a solutions sheet"
+   },
+   {
+    "name": "scheme-of-work-builder",
+    "summary": "A term or year of lessons, sequenced by dependency, with spaced retrieval and assessment points"
+   },
+   {
+    "name": "learning-objectives-writer",
+    "summary": "Turns a spec point into checkable objectives and success criteria at the right level"
+   },
+   {
+    "name": "curriculum-mapper",
+    "summary": "Maps taught, planned and assessed against the spec to show gaps and over-taught areas"
+   },
+   {
+    "name": "knowledge-organiser",
+    "summary": "A one-page organiser: essential facts, vocabulary, diagrams and common mistakes"
+   },
+   {
+    "name": "homework-designer",
+    "summary": "Short, spaced homework nobody at home has to teach, quick to check"
+   },
+   {
+    "name": "cover-lesson-planner",
+    "summary": "A cover lesson a non-specialist can run with zero preparation"
+   },
+   {
+    "name": "remote-lesson-adapter",
+    "summary": "Adapts a lesson for Zoom or Teams so every student participates and you can see their thinking"
+   }
+  ]
+ },
+ {
+  "category": "Memory and retrieval",
+  "skills": [
+   {
+    "name": "recall-starter",
+    "summary": "A spaced, interleaved retrieval starter built from what students got wrong"
+   },
+   {
+    "name": "low-stakes-quiz-builder",
+    "summary": "A 5 to 15 question quiz mixing recent and older topics, with confidence ratings"
+   },
+   {
+    "name": "flashcard-deck-builder",
+    "summary": "One fact per card, precise answers, ordered for spaced practice"
+   },
+   {
+    "name": "interleaved-practice-builder",
+    "summary": "Mixed problem sets that make students choose the method, not repeat the last one"
+   },
+   {
+    "name": "no-answer-patterns",
+    "summary": "Checks and fixes MCQ and sort-task keys so students can't guess the pattern. Bundles a checker script"
+   }
+  ]
+ },
+ {
+  "category": "Explaining and modelling",
+  "skills": [
+   {
+    "name": "explanation-crafter",
+    "summary": "A clear explanation for a specific age: known to new, concrete before abstract, checks built in"
+   },
+   {
+    "name": "worked-example-builder",
+    "summary": "Worked examples with faded guidance, from fully worked to independent"
+   },
+   {
+    "name": "modelling-sequence",
+    "summary": "An I do, we do, you do sequence with live thinking aloud"
+   },
+   {
+    "name": "questioning-planner",
+    "summary": "Hinge questions, cold-call sequences, probing follow-ups and responses to wrong answers"
+   },
+   {
+    "name": "dual-coding-designer",
+    "summary": "The diagram, flow chart or timeline that pairs with your explanation"
+   },
+   {
+    "name": "vocabulary-builder",
+    "summary": "Explicit teaching of the subject words that matter, with student-friendly definitions"
+   }
+  ]
+ },
+ {
+  "category": "Assessment and feedback",
+  "skills": [
+   {
+    "name": "exam-question-writer",
+    "summary": "Original exam-style questions and mark schemes in the board's command words and mark allocations"
+   },
+   {
+    "name": "hinge-question-writer",
+    "summary": "Single MCQs where every wrong option reveals a specific misconception"
+   },
+   {
+    "name": "diagnostic-test-builder",
+    "summary": "A baseline test that finds what students know and the exact gaps to fix first"
+   },
+   {
+    "name": "misconception-finder",
+    "summary": "Groups wrong answers by the idea behind them and plans the fix, confident-but-wrong first"
+   },
+   {
+    "name": "question-level-analysis",
+    "summary": "Mock results question by question: which topics and skills lost the most marks"
+   },
+   {
+    "name": "script-marker",
+    "summary": "Consistent marking against a scheme, every mark with its evidence, borderline cases flagged"
+   },
+   {
+    "name": "whole-class-feedback",
+    "summary": "Turns marked work into one feedback sheet, model answers and an improvement task"
+   },
+   {
+    "name": "essay-feedback",
+    "summary": "Level-based feedback on extended writing with one priority and a rewrite task"
+   },
+   {
+    "name": "peer-assessment-designer",
+    "summary": "Peer review that works: calibration first, structured prompts, accuracy checks"
+   },
+   {
+    "name": "exam-technique-coach",
+    "summary": "Command words, marks as a guide to length, planning and timing"
+   },
+   {
+    "name": "coursework-guide",
+    "summary": "Stages, deadlines and what each criterion rewards, inside the board's rules on help"
+   }
+  ]
+ },
+ {
+  "category": "Inclusion and adaptation",
+  "skills": [
+   {
+    "name": "send-adaptations",
+    "summary": "Adapts lessons and tests for dyslexia, ADHD, autism and processing needs without lowering the bar"
+   },
+   {
+    "name": "eal-support",
+    "summary": "Vocabulary, visuals and scaffolds for students learning English"
+   },
+   {
+    "name": "text-leveller",
+    "summary": "Rewrites a text up or down a reading level, keeping every key fact"
+   },
+   {
+    "name": "stretch-and-challenge",
+    "summary": "Deeper thinking for high attainers, not more of the same"
+   }
+  ]
+ },
+ {
+  "category": "Pastoral and behaviour",
+  "skills": [
+   {
+    "name": "behaviour-plan",
+    "summary": "Routines, expectations and responses for a class or a situation"
+   },
+   {
+    "name": "restorative-conversation",
+    "summary": "A calm, structured conversation after an incident"
+   },
+   {
+    "name": "mentoring-session-planner",
+    "summary": "A one-to-one mentoring session with coaching questions and a target"
+   },
+   {
+    "name": "form-time-planner",
+    "summary": "Purposeful tutor time for a term"
+   },
+   {
+    "name": "study-skills-coach",
+    "summary": "Teaches students retrieval, spacing, planning and managing phones and distractions"
+   }
+  ]
+ },
+ {
+  "category": "Tutoring and progress",
+  "skills": [
+   {
+    "name": "tutoring-session-planner",
+    "summary": "A 1:1 or small-group session built from what the tutee got wrong last time"
+   },
+   {
+    "name": "six-week-review",
+    "summary": "Compares now with the baseline topic by topic and sets the next three priorities"
+   },
+   {
+    "name": "revision-timetable-builder",
+    "summary": "A realistic, spaced revision plan worked back from exam dates"
+   },
+   {
+    "name": "intervention-planner",
+    "summary": "Short, specific, measured catch-up for a group with the same gap"
+   }
+  ]
+ },
+ {
+  "category": "Parents and communication",
+  "skills": [
+   {
+    "name": "parent-message",
+    "summary": "Short, plain-language messages with one clear call to action"
+   },
+   {
+    "name": "parent-evening-prep",
+    "summary": "A phone-sized brief per student: a strength, a priority and one home action"
+   },
+   {
+    "name": "student-report-writer",
+    "summary": "Reports that are honest, specific and kind, worded differently for every student"
+   },
+   {
+    "name": "newsletter-writer",
+    "summary": "A parent newsletter short enough to read on a phone"
+   },
+   {
+    "name": "difficult-conversation-prep",
+    "summary": "Facts, goal, opening line and likely responses for a hard conversation"
+   }
+  ]
+ },
+ {
+  "category": "AI in the classroom",
+  "skills": [
+   {
+    "name": "ai-proof-tasks",
+    "summary": "Redesigns homework and coursework so students still learn when AI is available"
+   },
+   {
+    "name": "ai-literacy-lesson",
+    "summary": "Lessons that teach students to use AI to think more, not less"
+   }
+  ]
+ },
+ {
+  "category": "Leadership and CPD",
+  "skills": [
+   {
+    "name": "cpd-session-designer",
+    "summary": "Training that changes one thing teachers do on Monday, with follow-up"
+   },
+   {
+    "name": "lesson-observation-feedback",
+    "summary": "Observation notes turned into strengths, one action step and a rehearsal"
+   }
+  ]
+ },
+ {
+  "category": "Subject packs",
+  "skills": [
+   {
+    "name": "code-exercise-builder",
+    "summary": "Predict, run, investigate, modify, make: programming tasks with tests, hints and solutions"
+   },
+   {
+    "name": "problem-set-builder",
+    "summary": "Maths practice built on variation theory, from fluency to problem solving"
+   },
+   {
+    "name": "practical-lesson-planner",
+    "summary": "Practicals with safety, method, results tables and the exam questions that follow"
+   }
+  ]
+ }
+]

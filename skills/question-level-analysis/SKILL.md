@@ -6,6 +6,8 @@ description: Analyse mock or test results question by question to find which top
 # Question-Level Analysis
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 A total score says how a student did. Question-level analysis says why, and what to teach on Monday.
 

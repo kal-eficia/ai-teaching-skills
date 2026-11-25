@@ -6,6 +6,8 @@ description: Build a baseline diagnostic test for a new class, student or unit t
 # Diagnostic Test Builder
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 A diagnostic test isn't a mini exam. Its job is to find out precisely what to teach, so each question must point at one skill or one misconception.
 

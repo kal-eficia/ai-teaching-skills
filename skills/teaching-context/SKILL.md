@@ -23,6 +23,7 @@ Every teaching skill in this library works better when it knows the teacher. Thi
 8. **House rules**: e.g. "no self-marking", "summary after every page", "no answer patterns in MCQs", "British spelling", "no activities built on untrue statements", "no music in videos".
 9. **Voice and style**: how student-facing material should sound; brand fonts or colours for resources.
 10. **Assessment**: assessment windows, report deadlines, how reports reach parents.
+11. **Data rules**: which AI tools the school has approved, whether student names may be used in them, and anything that must never be shared (for example health or safeguarding information). If unsure, record "anonymise everything".
 
 ## The file
 
@@ -36,6 +37,7 @@ Every teaching skill in this library works better when it knows the teacher. Thi
 ## House rules (every skill must follow these)
 ## Voice and resource style
 ## Assessment calendar
+## Data rules (what may and may not go into AI tools)
 ```
 
 ## Rules

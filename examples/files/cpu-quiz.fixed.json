@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which component carries out calculations?",
+    "options": [
+      "Clock",
+      "Control unit",
+      "Cache",
+      "ALU"
+    ],
+    "answer": "ALU"
+  },
+  {
+    "q": "Which register holds the address of the next instruction?",
+    "options": [
+      "CIR",
+      "PC",
+      "MAR",
+      "MDR"
+    ],
+    "answer": "PC"
+  },
+  {
+    "q": "Which bus is one-directional?",
+    "options": [
+      "Control bus",
+      "Data bus",
+      "Address bus",
+      "All of them"
+    ],
+    "answer": "Address bus"
+  },
+  {
+    "q": "What does cache memory do?",
+    "options": [
+      "Stores frequently used instructions close to the CPU",
+      "Connects to the internet",
+      "Stores files permanently",
+      "Holds the BIOS"
+    ],
+    "answer": "Stores frequently used instructions close to the CPU"
+  },
+  {
+    "q": "Which is an embedded system?",
+    "options": [
+      "A tablet",
+      "A laptop",
+      "A washing machine controller",
+      "A games console"
+    ],
+    "answer": "A washing machine controller"
+  },
+  {
+    "q": "What does a NIC need to connect to a network?",
+    "options": [
+      "A printer",
+      "An IP address only",
+      "A monitor",
+      "A MAC address"
+    ],
+    "answer": "A MAC address"
+  }
+]

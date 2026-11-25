@@ -6,6 +6,8 @@ description: Turn a set of marked work into whole-class feedback: what the class
 # Whole-Class Feedback
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 Writing the same comment on 30 books is slow, and students rarely act on it. Whole-class feedback is faster for the teacher and gives students something to do.
 

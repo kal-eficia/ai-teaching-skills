@@ -6,6 +6,8 @@ description: Plan stretch and challenge for high-attaining students that deepens
 # Stretch and Challenge
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 "Do the next worksheet" isn't challenge. Real stretch asks for deeper or wider thinking about the same topic.
 

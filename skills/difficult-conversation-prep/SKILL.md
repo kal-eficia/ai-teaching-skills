@@ -6,6 +6,8 @@ description: Prepare for a difficult conversation with a parent, colleague or st
 # Difficult Conversation Prep
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 Hard conversations go better when the facts are straight, the goal is clear and the first minute is planned.
 

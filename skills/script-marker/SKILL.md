@@ -6,6 +6,8 @@ description: Mark student answers or scripts against a mark scheme consistently:
 # Script Marker
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 AI marking is a first pass for the teacher to check, never the final mark. Its value is speed, consistency and a clear trail of why each mark was given.
 

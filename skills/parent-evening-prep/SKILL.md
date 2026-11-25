@@ -6,6 +6,8 @@ description: Prepare for parents' evening or a parent call: a short, honest brie
 # Parent Evening Prep
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 Five minutes per family goes fast. Parents remember one thing. Make sure it's the right one.
 

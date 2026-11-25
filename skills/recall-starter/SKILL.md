@@ -6,6 +6,8 @@ description: Build a 5 to 10 question retrieval starter for the next lesson from
 # Recall Starter
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 The first five minutes of a lesson should make students pull old knowledge out of memory, not re-read it. That is what makes it stick. This skill builds those five minutes.
 
@@ -32,8 +34,8 @@ Not in: anything not yet taught. A starter is retrieval, not a pre-test.
 If the teacher has a question bank and an attempts log (student, question id, date, right/wrong), use [recall-engine](https://github.com/kal-eficia/recall-engine) to pick the questions per student or per class:
 
 ```bash
-recall-engine starter --bank bank.csv --log attempts.csv --student Amir --size 8 --answers
-recall-engine review  --bank bank.csv --log attempts.csv --student Amir   # six-week progress
+recall-engine starter --bank bank.csv --log attempts.csv --student S07 --size 8 --answers
+recall-engine review  --bank bank.csv --log attempts.csv --student S07   # six-week progress
 ```
 
 If there's no data, ask what was taught in the last four lessons and what the class found hard, then build from that.

@@ -6,12 +6,14 @@ description: Write termly or end-of-unit student reports that are honest, specif
 # Student Report Writer
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 Parents read a report three times. Students read it once and remember one line. Write for both.
 
 ## Inputs to gather
 
-For each student: first name, pronouns, subject, and whatever evidence exists (marks, attendance, homework record, the teacher's own notes, recall or quiz trends). If the teacher only gives a list of names and grades, ask for one line of their own observation per student. Reports built on grades alone read like templates, because they are.
+For each student: an initial or placeholder such as [S1] (swap the real first name in afterwards, unless your school's policy allows names in this tool), pronouns, subject, and whatever evidence exists (marks, attendance, homework record, the teacher's own notes, recall or quiz trends). If the teacher only gives a list of names and grades, ask for one line of their own observation per student. Reports built on grades alone read like templates, because they are.
 
 Never invent evidence. If you don't know something, leave it out.
 
@@ -37,4 +39,4 @@ Never invent evidence. If you don't know something, leave it out.
 
 ## Output
 
-A table or list: student name, report text, word count. Flag any student where you had too little evidence to write something specific, so the teacher can add a line.
+A table or list: student (placeholder or name), report text, word count. Flag any student where you had too little evidence to write something specific, so the teacher can add a line.

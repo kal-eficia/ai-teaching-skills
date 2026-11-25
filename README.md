@@ -13,6 +13,10 @@ Ask a general AI assistant for a lesson and you get a lesson plan. Ask for a qui
 
 These skills fix that. Each one is a short, opinionated playbook that tells an AI assistant how a teaching job is done well: what to ask, what to build, and what to check before handing it over. They're built on what works in classrooms (retrieval practice, worked examples, hinge questions, variation theory) and on how I run my own lessons, tutoring and parent communication.
 
+## Not technical? Start here
+
+**[kal-eficia.github.io/ai-teaching-skills](https://kal-eficia.github.io/ai-teaching-skills/)** has every skill as a card with a **Copy** button and a ready-made download for Claude, plus one-minute guides for ChatGPT, Gemini, Copilot and Claude. No GitHub or terminal needed.
+
 ## Start with teaching-context
 
 Run **teaching-context** first. It interviews you once (classes, exam boards and codes, timetable, delivery mode, student needs, house rules like "no answer patterns" or "British spelling") and saves a `teaching-context.md` file. Every other skill reads that file before it starts, so you never explain your classes twice.
@@ -162,6 +166,10 @@ cp -r ai-teaching-skills/skills/* ~/.claude/skills/
 | [**problem-set-builder**](skills/problem-set-builder/SKILL.md) | Maths practice built on variation theory, from fluency to problem solving |
 | [**practical-lesson-planner**](skills/practical-lesson-planner/SKILL.md) | Practicals with safety, method, results tables and the exam questions that follow |
 
+## Examples
+
+See real input and output for the core skills in [examples/](examples/), so you can judge the quality before you try one.
+
 ## Try it
 
 > Use lesson-pack-builder. Year 10, Cambridge IGCSE Computer Science 0984, topic 3.1 the CPU, 50 minutes, remote. Last lesson was binary addition.
@@ -181,6 +189,7 @@ cp -r ai-teaching-skills/skills/* ~/.claude/skills/
 - **Make the thinking visible.** Hinge questions, confidence ratings, summaries after every page.
 - **Check with code, not by eye.** Anything that can be verified (answer keys, word counts, numbering) is.
 - **House rules win.** Whatever your teaching context says overrides a skill's defaults.
+- **Student data stays safe.** Skills that handle student work ask for initials or numbers, not names, and keep health, SEND and safeguarding details out unless your school's policy allows the tool you're using.
 - **Make young people love AI, not fear it,** and design tasks so the learning still happens in their heads.
 
 ## Companion tools

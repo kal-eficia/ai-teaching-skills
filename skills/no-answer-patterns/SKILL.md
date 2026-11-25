@@ -36,6 +36,8 @@ python3 scripts/check_key.py --key CADBDACB      # check a bare key
 
 Quiz JSON is a list of `{"q", "options", "answer"}` (answer as index or option text) and optional `{"type": "sort", "items": [{"text", "bucket"}]}`. If your quiz lives in HTML, extract the questions to this shape first.
 
+**Can't run code** (for example in a chat assistant without code tools)? Write the key out as letters, then check each rule in the table above one at a time and show your working for each: list every pair of neighbours for repeats, every three in a row for runs and staircases, and count each letter for lopsidedness. Say plainly that it was checked by hand.
+
 For bigger projects, use the full [pattern-guard](https://github.com/kal-eficia/pattern-guard) CLI.
 
 ## How to fix

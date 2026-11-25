@@ -6,6 +6,8 @@ description: Build a personalised revision timetable working back from exam date
 # Revision Timetable Builder
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 A revision timetable fails when it's too ambitious in week one. Build one a real student will follow.
 

@@ -6,6 +6,8 @@ description: Support students learning English as an additional language in a su
 # EAL Support
 
 > If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+>
+> **Student data:** use initials or numbers instead of names, and leave out health, SEND diagnoses, safeguarding and family details unless your school's data protection and AI policy allow this tool to handle them. If you can't tell, anonymise first.
 
 EAL students are often capable of the full subject content. The barrier is the language, so support the language and keep the thinking demanding.
 
