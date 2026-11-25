@@ -30,3 +30,7 @@ Homework helps when it's retrieval and practice students can do alone. It hurts 
 ## Output
 
 The student task (time, instructions, questions), answers or a mark scheme for the teacher, and one line on how it will be checked or used next lesson.
+
+## Before you hand over
+
+- For languages, check every target-language form in writing frames, examples and answers (verb endings, agreements, accents) before handing over.

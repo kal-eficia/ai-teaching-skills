@@ -1,0 +1,6 @@
+{"grader": "3b", "cases": [
+{"id": "parent-message", "x": [0, 2, 1, 2, 2, 2], "y": [2, 2, 2, 1, 1, 2], "prefer": "y", "reason": "Y is phone-length with one clear reply-YES action, whereas X is warmer but about 170 words and asks the parent for two things."},
+{"id": "ai-proof", "x": [2, 1, 2, 1, 1, 1], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Y is a ready-to-set staged task with a from-memory start, explicit AI rules, a submission list and a 20-mark scheme, while X is a menu of options the teacher still has to turn into a task."},
+{"id": "six-week-review", "x": [2, 2, 2, 2, 1, 2], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Both are accurate and honest, but Y limits the plan to three targeted priorities with actions and targets, where X gives a six-item list."},
+{"id": "explanation", "x": [2, 2, 2, 2, 1, 2], "y": [2, 2, 1, 2, 1, 2], "prefer": "x", "reason": "X puts the torch demo before the abstract tilt explanation and flags where the analogy breaks, while Y introduces the tilt before any concrete model."}
+]}

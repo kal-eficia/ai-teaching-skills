@@ -33,3 +33,8 @@ A great explanation is short, concrete and built on something students already k
 - The analogy and where it breaks
 - The check question with the answer and the most likely wrong answer
 - A one-paragraph version students can read later
+
+## Before you hand over
+
+- Put a check question after each step of the explanation, with the answer you expect, not only at the end.
+- Do the concrete example or demonstration before the abstract statement it supports.

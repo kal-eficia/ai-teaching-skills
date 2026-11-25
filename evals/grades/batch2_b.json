@@ -1,0 +1,6 @@
+{"grader": "2b", "cases": [
+{"id": "misconceptions", "x": [2,2,2,2,2,2], "y": [1,2,2,2,2,2], "prefer": "x", "reason": "X organises everything by underlying idea with a clear fix-first call and gives ready-to-use hinge questions with diagnostic distractors, whereas Y is mostly question by question after merging Q3 and Q8."},
+{"id": "exam-question", "x": [2,2,2,2,2,1], "y": [2,2,2,2,2,2], "prefer": "y", "reason": "Y puts a describe part and explain parts on the same data with model answers and a clear Point-Because-So scaffold, while X rejects 'sugar' and demands 'maltose', which goes beyond what the foundation combined spec requires."},
+{"id": "worked-example", "x": [2,2,2,2,2,2], "y": [2,1,0,2,1,2], "prefer": "x", "reason": "X fades support properly through a paired example and three part-completed examples, explains the reasoning at every step and flags the risky step, while Y jumps straight from one worked example to independent questions."},
+{"id": "reports", "x": [1,1,2,1,0,2], "y": [2,2,2,1,2,2], "prefer": "y", "reason": "Y opens each report with an earned strength and gives one specific, doable next step without character labels, whereas X uses 'a pleasure to teach', lists several targets and labels S3 as sociable and S6 as bored."}
+]}

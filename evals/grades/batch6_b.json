@@ -1,0 +1,6 @@
+{"grader": "6b", "cases": [
+{"id": "knowledge-organiser", "x": [1, 2, 2, 2, 2, 2], "y": [0, 2, 2, 2, 2, 2], "prefer": "x", "reason": "X is tighter and comes with a ready-made blanked self-quiz version and answer key, whereas Y runs to several pages with extra content (Hereward, sources, historian questions) that defeats the one-page purpose."},
+{"id": "scheme-of-work", "x": [2, 2, 2, 2, 2, 1], "y": [2, 2, 1, 1, 2, 2], "prefer": "y", "reason": "Y gives a timed, teachable plan for every lesson at a realistic pace, while X has stronger spaced retrieval and checks but crams 15-minute checks into lessons that also introduce new content (e.g. lists plus a practical check in L10) and includes stray internal references."},
+{"id": "code-exercise", "x": [2, 2, 2, 2, 2, 2], "y": [2, 1, 2, 1, 1, 2], "prefer": "x", "reason": "X follows a clear predict-modify-make progression with test tables, staged hints and full worked solutions, whereas Y jumps quickly to writing from scratch and has few test cases or hints."},
+{"id": "cover", "x": [2, 2, 2, 2, 2, 2], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Both are strong, but Y's single printed sheet with consistent timings and a named hand-in gives clearer evidence of what was done, while X's board outline timings (55 min, 5 vs 2 min exit ticket) do not match its own table."}
+]}

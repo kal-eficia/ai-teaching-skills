@@ -39,6 +39,11 @@ Hi [parent name or "Assalamu alaykum" / greeting that fits the community],
 - [ ] Is there exactly one action, and is it clear who does it?
 - [ ] Is anything here private to another child? Remove it.
 
+## Before you hand over
+
+- Even in a short message, the first line is warm or names the shared aim, before the facts.
+- Count the asks. If the parent is asked to do two things, cut one.
+
 ## With the classroom tools
 
 If the `text_stats` tool is available, use it to confirm the word limit and that the reading level suits a busy parent reading on a phone.

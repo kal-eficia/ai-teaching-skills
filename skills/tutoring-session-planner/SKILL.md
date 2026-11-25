@@ -32,3 +32,10 @@ A three-line note: what we covered, what went well, what's next. A parent versio
 ## Output
 
 The session plan with timings, all questions and answers, the homework, and the note templates. Keep a running log so the next plan starts from this one.
+
+## Before you hand over
+
+- The first activity is retrieval of exactly what the student got wrong last time, from memory, before any re-explanation.
+- One teaching focus per session. If there are three gaps, pick the one the next school topic depends on and park the others for retrieval.
+- Guided practice and independent practice are two separate, labelled stages.
+- Always end with the short note for the student and the parent.

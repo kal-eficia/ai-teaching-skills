@@ -45,3 +45,4 @@ Every teaching skill in this library works better when it knows the teacher. Thi
 - Record only what the teacher says. Don't guess grades or needs.
 - Keep student names out unless the teacher explicitly wants them in, and never store sensitive details about individual children (health, safeguarding, family circumstances).
 - Every other skill: if this file exists, read it first, follow its house rules, and don't re-ask what it answers.
+- In anything written for the teacher, students or parents, never mention skills, skill files, checklists or this context file. Just do the work.

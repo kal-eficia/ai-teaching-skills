@@ -1,0 +1,98 @@
+{
+ "lesson-pack": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "recall-starter": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "quiz": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "hinge": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "misconceptions": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "exam-question": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "worked-example": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "reports": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "parent-message": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "ai-proof": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "six-week-review": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "explanation": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "send": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "text-level": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "class-feedback": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "homework": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "revision-timetable": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "tutoring": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "cpd": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "difficult-conversation": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "knowledge-organiser": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "scheme-of-work": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "code-exercise": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "cover": {
+  "with_skill": "y",
+  "without_skill": "x"
+ }
+}

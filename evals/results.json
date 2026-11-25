@@ -1,0 +1,1271 @@
+{
+ "summary": {
+  "cases": 24,
+  "skills": 24,
+  "with_pct": 96.4,
+  "without_pct": 81.2,
+  "cases_skill_higher": 21,
+  "cases_baseline_higher": 1,
+  "cases_level": 2,
+  "prefer_with": 44,
+  "prefer_without": 4,
+  "prefer_tie": 0,
+  "auto_with_pass": 5,
+  "auto_without_pass": 1,
+  "auto_total": 5,
+  "median_words_with": 1349,
+  "median_words_without": 1279
+ },
+ "cases": [
+  {
+   "id": "lesson-pack",
+   "skill": "lesson-pack-builder",
+   "subject": "Computing",
+   "task": "I teach Year 9 computing online over Zoom, 50-minute lessons. Tomorrow's topic is how data travels across the internet (packets and packet switching). Last lesson was network hardware: routers, switches and NICs. Make me everything I need to teach it. Include at least five multiple-choice questions for the students somewhere in the materials.\n\nFormat: at the very end, add one line starting 'ANSWER KEY:' listing the correct letter for every multiple-choice question in the order they appear, for example 'ANSWER KEY: B D A C A'.",
+   "criteria": [
+    "There is a teacher-facing plan with timings that add up to about 50 minutes",
+    "There is separate student-facing material written directly to the student (says 'you'), with no teacher notes mixed into it",
+    "The lesson opens with retrieval of the previous lesson (network hardware) from memory, not a recap by the teacher",
+    "There is a homework task and a mark scheme or model answers for it",
+    "There is a quick answer or solutions sheet the teacher can use to check student work live",
+    "The activities suit a live online lesson (chat, polls, shared screen) rather than assuming a physical classroom"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 3796,
+    "auto": {
+     "name": "No guessable answer pattern",
+     "pass": true,
+     "detail": "key CADBDACABD: clean"
+    }
+   },
+   "without": {
+    "criteria": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 3331,
+    "auto": {
+     "name": "No guessable answer pattern",
+     "pass": false,
+     "detail": "key CADBDABC: staircase at Q6-Q8"
+    }
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer gives a genuinely separate student-facing page written to the student plus a one-screen solutions sheet, whereas the plain answer's materials are almost entirely teacher-facing script and slide notes.",
+    "The skill answer gives a genuinely separate student-facing interactive page with no teacher notes, a from-memory starter with confidence ratings and a one-screen solutions sheet, whereas the plain answer keeps all student questions and homework inside the teacher document."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "recall-starter",
+   "skill": "recall-starter",
+   "subject": "Science",
+   "task": "Year 8 science. Write the starter for tomorrow's lesson. The last four lessons were: (1) elements and compounds, (2) the periodic table groups, (3) chemical vs physical changes, (4) word equations (yesterday). Three weeks ago we did the particle model, and a month ago we did cells. In last week's quiz most of the class confused compounds with mixtures, and about half couldn't say what happens to particles when a solid melts. Tomorrow's new topic is acids and alkalis.",
+   "criteria": [
+    "Every question is on content already taught; none of them tests acids and alkalis (the new topic)",
+    "It includes questions on both things the class got wrong (compounds vs mixtures, particles when a solid melts)",
+    "It includes older material (particle model and/or cells), not just yesterday's lesson",
+    "Topics are mixed up so neighbouring questions are not all from the same lesson",
+    "Students are told to answer from memory (no notes) and it is short enough for about 5 to 8 minutes",
+    "There is a teacher answer key, and it explains why questions were chosen or what to look for"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 865
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 771
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer fully interleaves topics, double-checks both weak spots from different angles and explains why each question is there, while the plain answer places two particle-model questions back to back and its compound question gives the answer away in the stem.",
+    "The skill answer fully interleaves topics, double-checks both quiz gaps from different angles and explains why each question was chosen, while the plain answer puts two particle-model questions next to each other."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "quiz",
+   "skill": "low-stakes-quiz-builder",
+   "subject": "Geography",
+   "task": "Write a 12-question multiple-choice quiz for my Year 7 geography class on rivers (source to mouth, erosion, transportation, deposition, landforms like meanders and waterfalls, and flooding). Four options each. I'll use it as a low-stakes check next week; they finished the unit two weeks ago and before that we did map skills.\n\nFormat: at the very end, add one line starting 'ANSWER KEY:' listing the correct letter for each question in order, for example 'ANSWER KEY: B D A C ...'.",
+   "criteria": [
+    "All 12 questions are accurate and unambiguous, with exactly one defensible correct answer each",
+    "Wrong options are plausible misconceptions, not obviously silly or jokey distractors",
+    "Questions go beyond single-word recall in at least a third of cases (applying or explaining, e.g. why a meander forms)",
+    "It mixes in some earlier material (map skills) or says how to, rather than only the most recent unit",
+    "The teacher gets an answer key with a short explanation or the misconception each question checks",
+    "It suggests how to use the results (for example confidence ratings, or what to reteach), keeping it low stakes"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1414,
+    "auto": {
+     "name": "No guessable answer pattern",
+     "pass": true,
+     "detail": "key BDACADBCABDC: clean"
+    }
+   },
+   "without": {
+    "criteria": [
+     2,
+     1,
+     1.5,
+     0,
+     0,
+     0
+    ],
+    "total": 4.5,
+    "max": 12,
+    "words": 579,
+    "auto": {
+     "name": "No guessable answer pattern",
+     "pass": false,
+     "detail": "key CADBDACBADBC: staircase at Q7-Q9"
+    }
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is accurate and adds map-skills interleaving, a misconception guide per option, confidence ratings and advice on using the results, while the plain answer is a bare quiz with an answer line and a few throwaway distractors.",
+    "The skill answer mixes in map skills, explains what every wrong option reveals and says how to use the results, while the plain answer is a bare quiz with some silly distractors, no explanations and map skills explicitly excluded."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "hinge",
+   "skill": "hinge-question-writer",
+   "subject": "Maths",
+   "task": "Year 8 maths, adding fractions with different denominators. I want a question to ask in the middle of the lesson so I know whether to move on or go back. Give me three options to choose from.",
+   "criteria": [
+    "Each question is multiple choice and answerable by the whole class in about a minute",
+    "Each wrong option corresponds to a specific, real misconception (for example adding numerators and denominators), and the output says which",
+    "A student holding a misconception could not land on the right answer by accident (the numbers are chosen to prevent it)",
+    "There is a decision rule: what to do next depending on how the class answers",
+    "Each question tests one idea only, the one the next part of the lesson depends on",
+    "The maths is correct throughout, including the stated correct answers"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1036
+   },
+   "without": {
+    "criteria": [
+     2,
+     1,
+     2,
+     2,
+     1.5,
+     1
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 791
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer maps every wrong option to a correct, specific misconception with a targeted decision rule for each, whereas the plain answer misdescribes the 2/6 error and its third option's distractors are not real misconceptions.",
+    "The skill answer ties every wrong option to a specific real misconception with a detailed decision rule per option, whereas the plain answer has vague or non-misconception distractors (e.g. '7 is prime') and misdescribes the 2/6 error as keeping a denominator."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "misconceptions",
+   "skill": "misconception-finder",
+   "subject": "Science",
+   "task": "Year 10 physics quiz on electricity, 26 students. Here's what went wrong:\n\nQ3 'What happens to the current after it passes through a bulb in a series circuit?' 14 said it gets smaller or is used up (9 of them very confident).\nQ5 'Two identical bulbs in parallel compared to one bulb: brightness of each?' 11 said dimmer (most not confident).\nQ6 'What does a voltmeter measure?' 4 said current, 3 left blank.\nQ8 'A battery stores...' 12 said electricity or charge (8 confident), correct was chemical energy.\nQ9 unit of resistance: 2 wrote amps, 1 wrote volts.\n\nWhat should I do about this?",
+   "criteria": [
+    "It groups the errors by the underlying idea (for example 'current is used up') rather than going question by question",
+    "It prioritises using both how many students and how confident they were, and names what to fix first with a reason",
+    "It separates genuine misconceptions from slips or vocabulary gaps (for example Q9 units is a minor slip)",
+    "For the main misconceptions it explains why the wrong idea is appealing to students",
+    "It gives a concrete reteach move for each main misconception (a demonstration, model, analogy or counter-example), not just 'reteach current'",
+    "It includes a check question or says when to revisit, so the teacher can see whether the fix worked; and the physics is correct"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1808
+   },
+   "without": {
+    "criteria": [
+     1,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 1521
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer organises everything by underlying idea and gives a ready-made hinge question with diagnostic distractors for each misconception, while the plain answer is largely structured question by question.",
+    "The skill answer organises everything by underlying idea with a clear fix-first call and gives ready-to-use hinge questions with diagnostic distractors, whereas the plain answer is mostly question by question after merging Q3 and Q8."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "exam-question",
+   "skill": "exam-question-writer",
+   "subject": "Biology",
+   "task": "Write me an exam-style question on enzymes for AQA GCSE Biology (combined science, foundation tier), about 8 marks in total, with a mark scheme. My students struggle with 'explain' questions.",
+   "criteria": [
+    "The question is split into parts with rising difficulty and the marks shown for each part, totalling about 8",
+    "Command words are used correctly and the marks match the demand (for example 'explain' parts need linked reasons)",
+    "The mark scheme gives separate creditable points, one per mark, in examiner style",
+    "The mark scheme includes alternative acceptable answers and/or answers that should not be credited",
+    "There is a model full-mark answer or clear guidance students can learn from, relevant to 'explain' questions",
+    "The biology is correct and appropriate for foundation tier GCSE (active site, temperature, pH, denaturing)"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 881
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1070
+   },
+   "preferences": [
+    "without",
+    "without"
+   ],
+   "reasons": [
+    "The plain answer's describe-then-explain structure on the same data directly targets the explain weakness and covers temperature and denaturing, whereas the skill answer omits temperature and rejects 'sugar' alone, which is harsher than AQA's own wording.",
+    "The plain answer puts a describe part and explain parts on the same data with model answers and a clear Point-Because-So scaffold, while the skill answer rejects 'sugar' and demands 'maltose', which goes beyond what the foundation combined spec requires."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "worked-example",
+   "skill": "worked-example-builder",
+   "subject": "Maths",
+   "task": "Year 9 are learning to solve linear equations with the unknown on both sides, like 5x + 3 = 2x + 15. They've done one-sided equations fine. Make me the practice sheet.",
+   "criteria": [
+    "It starts with at least one fully worked example with every step shown",
+    "The worked steps explain why each step is done, not only what is done",
+    "Support fades gradually: partially completed examples come between the full example and independent questions",
+    "Independent questions rise in difficulty and include at least one twist (negative answers, brackets, or unknown larger on the right)",
+    "The step most likely to go wrong is flagged for students",
+    "Answers are provided for every question and are all correct"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1253
+   },
+   "without": {
+    "criteria": [
+     2,
+     1,
+     0,
+     2,
+     1,
+     2
+    ],
+    "total": 8,
+    "max": 12,
+    "words": 976
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer fades support from full to partial examples with reasons at each step, while the plain answer jumps straight from one lightly explained example to independent practice.",
+    "The skill answer fades support properly through a paired example and three part-completed examples, explains the reasoning at every step and flags the risky step, while the plain answer jumps straight from one worked example to independent questions."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "reports",
+   "skill": "student-report-writer",
+   "subject": "English",
+   "task": "Write end-of-term English reports for these Year 8 students, 60 to 90 words each. Use the codes, I'll add names.\n\n[S1] (she): reads widely, brilliant in discussion, written work is short and rushed, 6/10 average on essays.\n[S2] (he): very quiet, never volunteers, but his creative writing piece was the best in the class. Spelling weak.\n[S3] (he): chatty, often off task, homework missing 5 times. When focused his analysis of Macbeth was sharp.\n[S4] (she): steady, reliable, always does what's asked, never goes beyond it. 7/10 on everything.\n[S5] (they): joined mid-term from another school, still settling, missed the poetry unit. Works hard.\n[S6] (she): top marks all term, finishes early and gets bored.\n\nFormat: put each report on its own line starting with the code and a colon, for example '[S1]: ...'.",
+   "criteria": [
+    "Every report opens with a specific, earned strength drawn from the notes (not a generic phrase like 'a pleasure to teach')",
+    "Every report gives one clear, doable next step that says what to do, not a list of faults",
+    "Every report ends on a positive, forward-looking note",
+    "The six reports read as written about six different people: different openings and sentence shapes, no recycled sentences",
+    "Negative behaviour is described as work habits with a way forward, never as character labels (chatty, lazy, bored)",
+    "Plain language a parent can follow, with pronouns used correctly including 'they' for S5"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 586,
+    "auto": {
+     "name": "Reports pass length, repetition and jargon checks",
+     "pass": true,
+     "detail": "6 of 6 reports pass every check."
+    }
+   },
+   "without": {
+    "criteria": [
+     1,
+     1,
+     2,
+     1,
+     0,
+     2
+    ],
+    "total": 7,
+    "max": 12,
+    "words": 475,
+    "auto": {
+     "name": "Reports pass length, repetition and jargon checks",
+     "pass": false,
+     "detail": "4 of 6 reports pass every check. [S1]: jargon or label to avoid: 'pleasure to teach' | [S2]: no clear next step found"
+    }
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer opens every report with an earned strength and gives a single concrete next step, while the plain answer uses a generic 'pleasure to teach' opener, lists several fixes, and labels students as 'sociable' and 'bored'.",
+    "The skill answer opens each report with an earned strength and gives one specific, doable next step without character labels, whereas the plain answer uses 'a pleasure to teach', lists several targets and labels S3 as sociable and S6 as bored."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "parent-message",
+   "skill": "parent-message",
+   "subject": "Maths",
+   "task": "Write a WhatsApp message to a parent. Their son (Year 10, call him [child]) has dropped from grade 6 to grade 4 in the last two maths assessments and hasn't handed in the last three homeworks. I run a catch-up session on Tuesdays 3:30 to 4:15 and I'd like him to come for the next four weeks. I don't want to alarm them but I do need them to act.\n\nFormat: put the message itself between two lines that contain only ===.",
+   "criteria": [
+    "It is short enough to read on a phone in a few seconds (roughly under 100 words)",
+    "It states the facts plainly (grades and missed homework) without blame or a list of faults",
+    "It has exactly one clear action for the parent, with the day and time, and an easy way to respond",
+    "It makes clear who does what (what the child will do, what the parent is asked to do)",
+    "The tone is warm and calm, opening with something positive or the shared aim, without gushing",
+    "No school jargon or internal names; a parent with no knowledge of the school's systems would understand it"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     1.5,
+     1,
+     2
+    ],
+    "total": 10.5,
+    "max": 12,
+    "words": 188,
+    "auto": {
+     "name": "Message is under 100 words",
+     "pass": true,
+     "detail": "66 words"
+    }
+   },
+   "without": {
+    "criteria": [
+     0,
+     2,
+     1,
+     2,
+     2,
+     2
+    ],
+    "total": 9,
+    "max": 12,
+    "words": 207,
+    "auto": {
+     "name": "Message is under 100 words",
+     "pass": false,
+     "detail": "156 words"
+    }
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is short enough to read at a glance with one action (reply YES by a date), while the plain answer runs to about 150 words and asks the parent for two things.",
+    "The skill answer is phone-length with one clear reply-YES action, whereas the plain answer is warmer but about 170 words and asks the parent for two things."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "ai-proof",
+   "skill": "ai-proof-tasks",
+   "subject": "History",
+   "task": "My Year 9 history homework is: 'Write an essay explaining the causes of the First World War.' I know most of them will just get ChatGPT to write it. What should I set instead?",
+   "criteria": [
+    "It redesigns the task so the learning still happens, rather than just banning AI or relying on detection",
+    "Students must retrieve or think for themselves before any AI use (for example a from-memory stage)",
+    "The task includes something AI cannot do for them (class-specific or personal material, a live explanation, or critiquing a flawed AI answer)",
+    "It states clearly what AI use is allowed for this task",
+    "It says what students hand in and how it will be marked so that thinking, not just the final product, gets credit",
+    "The task is ready to give to Year 9 students as written, and the history content is accurate"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1.5
+    ],
+    "total": 11.5,
+    "max": 12,
+    "words": 1140
+   },
+   "without": {
+    "criteria": [
+     2,
+     0.5,
+     2,
+     1,
+     1,
+     1
+    ],
+    "total": 7.5,
+    "max": 12,
+    "words": 1188
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is one complete, student-facing task with a from-memory stage, clear AI rules, a submission list and a 20-mark scheme that adds up, while the plain answer is a menu of options I would still have to turn into a task.",
+    "The skill answer is a ready-to-set staged task with a from-memory start, explicit AI rules, a submission list and a 20-mark scheme, while the plain answer is a menu of options the teacher still has to turn into a task."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "six-week-review",
+   "skill": "six-week-review",
+   "subject": "Maths",
+   "task": "I tutor a Year 11 student (call them [S1]) for GCSE maths. Baseline test in week 1 and the same style of test in week 6:\n\nAlgebra: 35% then 70%\nNumber: 60% then 75%\nRatio and proportion: 40% then 45%\nGeometry: 30% then 55%\nProbability: 50% then 50%\nStatistics: not in baseline, 65% in week 6\n\nAttended 11 of 12 sessions. Homework done 4 times out of 6. Says they find ratio 'confusing' and avoids it. Write up the review. The parents want to know if the tutoring is working.",
+   "criteria": [
+    "It presents baseline, now and change for each topic clearly (a table or equivalent)",
+    "It does not claim progress for Statistics, since there was no baseline to compare with",
+    "It distinguishes topics that moved a lot from those that barely moved, and offers a reason for the weak ones (ratio avoided, probability flat)",
+    "It comments honestly on habits (homework 4 of 6) as part of the picture",
+    "It sets a small number of specific priorities for the next six weeks with actions, not a long list",
+    "It includes a plain-language summary for the parents that answers their question directly and honestly, with a strength, a priority and an encouraging close"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1183
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     1,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 987
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "Both are accurate (average 43% to 59%), but the skill answer keeps to three priorities with actions and targets and is more careful about what the data can't show, whereas the plain answer lists six plan items and states guesses about probability coverage as fact.",
+    "Both are accurate and honest, but the skill answer limits the plan to three targeted priorities with actions and targets, where the plain answer gives a six-item list."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "explanation",
+   "skill": "explanation-crafter",
+   "subject": "Science",
+   "task": "Explain to my Year 7 class (age 11 to 12) why we have seasons. Lots of them think it's because the Earth is closer to the sun in summer.",
+   "criteria": [
+    "It tackles the 'closer to the sun' misconception directly, with a reason it can't be right (for example opposite seasons in the two hemispheres)",
+    "It starts from something students already know or can picture before introducing the tilt",
+    "It uses a concrete example, model or demonstration (torch, globe, or similar) before abstract statements",
+    "The language suits 11 to 12 year olds: short sentences, key terms explained",
+    "It includes questions to check understanding along the way, not just at the end",
+    "The science is correct (axial tilt, angle and spread of sunlight, day length)"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     1,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 1271
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     1,
+     2,
+     1,
+     2
+    ],
+    "total": 10,
+    "max": 12,
+    "words": 1138
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer does the torch demo before introducing tilt and names where the analogy breaks down, whereas the plain answer explains the abstract tilt facts before any demo; neither puts real checking questions all the way through.",
+    "The skill answer puts the torch demo before the abstract tilt explanation and flags where the analogy breaks, while the plain answer introduces the tilt before any concrete model."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "send",
+   "skill": "send-adaptations",
+   "subject": "History",
+   "task": "Tomorrow's Year 8 history lesson has this task on the worksheet:\n\n'Read the three sources on pages 42 to 44 about the causes of the English Civil War. Using the sources and your own knowledge, write an extended answer to the question: \"Charles I was mainly to blame for the outbreak of the Civil War.\" How far do you agree? You have 30 minutes. Remember to use PEEL paragraphs and reach a judgement.'\n\nIn that class I have one student with dyslexia, one with ADHD, and one autistic student who gets very anxious about open-ended tasks. How do I adapt it?",
+   "criteria": [
+    "The learning goal stays the same for all three students: they still analyse causes and reach a judgement (the bar is not lowered)",
+    "Adaptations are specific to each need rather than one generic 'simplify it' list",
+    "For dyslexia: reduces the reading and writing load without removing the thinking (for example shorter extracts, key words, alternative ways to record)",
+    "For ADHD: breaks the 30 minutes into short steps with clear checkpoints",
+    "For the autistic student: reduces ambiguity (explicit structure, an example, what 'finished' looks like, warning of what is coming)",
+    "It is practical for one teacher to prepare by tomorrow, and avoids singling students out"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1785
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1301
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "Both meet every criterion, but the skill answer hands over a ready-to-print adapted worksheet with timed steps, evidence grid and PEEL boxes, so there is less to make tonight.",
+    "Both meet every criterion, but the skill answer hands over a ready-to-print adapted worksheet for the whole class, which saves the most preparation the night before."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "text-level",
+   "skill": "text-leveller",
+   "subject": "Geography",
+   "task": "Rewrite this for a Year 7 student with a reading age of about 9. Keep all the geography.\n\n'Tropical rainforests are characterised by exceptionally high levels of biodiversity, attributable to consistently elevated temperatures and substantial annual precipitation exceeding 2,000 millimetres. The vegetation is stratified into distinct layers, namely the emergent layer, the canopy, the understorey and the forest floor, each of which supports specialised flora and fauna adapted to its particular conditions of light availability and humidity. Deforestation, driven predominantly by commercial agriculture, logging and infrastructure development, poses a significant threat to these ecosystems, contributing to habitat fragmentation, the loss of endemic species and the release of sequestered carbon into the atmosphere, thereby exacerbating anthropogenic climate change.'\n\nFormat: put the rewritten text between two lines that contain only ===.",
+   "criteria": [
+    "Every key fact is kept: high biodiversity, warm all year, over 2,000 mm of rain, the four layers named, causes of deforestation, and its effects including carbon and climate change",
+    "Sentences are short and simple enough for a reading age of about 9",
+    "Subject vocabulary students must learn (for example canopy, deforestation, biodiversity) is kept and explained, not deleted",
+    "The meaning is accurate: nothing has been changed, invented or made wrong by simplifying",
+    "The tone is not babyish; it still reads as a text for a secondary school student",
+    "It adds helpful support such as a glossary, headings or a note of what was changed for the teacher"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 818,
+    "auto": {
+     "name": "Reading age 10.5 or below",
+     "pass": true,
+     "detail": "estimated reading age 10.3, 11.2 words per sentence"
+    }
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 327,
+    "auto": {
+     "name": "Reading age 10.5 or below",
+     "pass": true,
+     "detail": "estimated reading age 9.6, 9.5 words per sentence"
+    }
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "Both rewrites are accurate and pitched well, but the skill answer adds headings, a glossary, comprehension questions and a clear note of what changed, while the plain answer gives the text alone.",
+    "Both rewrites are accurate and pitched well, but the skill answer adds headings, a glossary, comprehension questions and a clear note of changes, while the plain answer gives only a one-line note."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "class-feedback",
+   "skill": "whole-class-feedback",
+   "subject": "English",
+   "task": "I've just read 28 Year 10 essays on how Priestley presents Mr Birling in An Inspector Calls. My notes: most have good knowledge of the plot. Lots retell the story instead of analysing. About half used quotes but didn't comment on language. Almost nobody mentioned context (1912 vs 1945). Several strong ones linked Birling to capitalism. Common spellings wrong: Priestley, capitalism, responsibility. Paragraphs often too long. I don't have time to write on every essay. What do I give back to the class?",
+   "criteria": [
+    "It produces a single whole-class feedback sheet rather than individual comments",
+    "It names specific strengths from the notes, not generic praise",
+    "It lists the main common errors, each with how to fix it (retelling vs analysis, quotes without language comment, missing context)",
+    "It includes a model or example showing what good analysis looks like for this essay",
+    "It gives students a concrete improvement task to do in lesson time (not just things to read)",
+    "It saves the teacher time (for example error codes) and the literature content is accurate"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1.5
+    ],
+    "total": 11.5,
+    "max": 12,
+    "words": 1285
+   },
+   "without": {
+    "criteria": [
+     1,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "total": 10,
+    "max": 12,
+    "words": 1257
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is an actual one-page student sheet with code-matched fix tasks and a labelled model paragraph, whereas the plain answer is a lesson plan the teacher still has to turn into a handout; both have a small literature slip (the plain answer puts a paraphrase in quotation marks, the skill answer says 'his own' is repeated when it appears once).",
+    "The skill answer is a single student-facing sheet with error codes, a labelled model paragraph and code-matched tasks, while the plain answer is a longer lesson package whose spelling tip ('response' + 'ability') would push students towards misspelling responsibility."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "homework",
+   "skill": "homework-designer",
+   "subject": "French",
+   "task": "Set this week's homework for my Year 8 French class. We've just finished the perfect tense with avoir. Earlier this term we did family vocabulary and opinions (j'aime, je déteste, parce que). Lots of parents tell me they can't help because they don't speak French.",
+   "criteria": [
+    "The homework is short with a stated time expectation (roughly 15 to 30 minutes)",
+    "It includes practice of earlier material (family vocabulary, opinions) as well as the perfect tense",
+    "It requires students to recall or produce language, not just copy or re-read",
+    "A parent with no French does not need to teach or check the content; any parent role is something they can actually do",
+    "It is quick for the teacher to check, and answers or a marking approach are provided",
+    "The French is correct and suitable for Year 8"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1.5
+    ],
+    "total": 11.5,
+    "max": 12,
+    "words": 956
+   },
+   "without": {
+    "criteria": [
+     1,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 1561
+   },
+   "preferences": [
+    "with",
+    "without"
+   ],
+   "reasons": [
+    "The skill answer fits a 20-minute slot with accurate French, a checked answer key and a parent role that only means listening and signing, while the plain answer runs to 30-35 minutes and asks more of parents.",
+    "The plain answer runs a little long at 30 to 35 minutes, but its French is correct throughout and it gives full answers and a parent answer strip, while the skill answer's student writing frame wrongly offers 'as' for the third person."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "revision-timetable",
+   "skill": "revision-timetable-builder",
+   "subject": "Study skills",
+   "task": "Make a revision timetable for a Year 11 student. Mocks start in 3 weeks: Maths Paper 1 on Monday of week 4, English Language Tuesday, Biology Wednesday, History Thursday. They're weakest at maths (algebra and ratio) and history (remembering dates and events). School finishes at 3:15, they have football Tuesday and Thursday 5 to 6:30, mosque class Saturday 10 to 12, and they say they can't concentrate for more than half an hour. They've never really revised before.",
+   "criteria": [
+    "It respects every fixed commitment (football Tuesday and Thursday, Saturday morning class) and school hours",
+    "Revision blocks are about 30 minutes or less with breaks, matching what the student said",
+    "Weak areas (maths algebra and ratio, history) get more time than stronger areas",
+    "Topics come back more than once across the three weeks (spacing) and subjects are mixed within days",
+    "Each block says what to do actively (self-testing, past questions, flashcards), not just 'revise maths'",
+    "It is realistic for a first-time reviser (a manageable daily load, rest time, some slack for catching up)"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 2065
+   },
+   "without": {
+    "criteria": [
+     2,
+     1.5,
+     2,
+     2,
+     1,
+     1
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 1673
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer gives every block a specific active method, an explicit spacing table and a built-in catch-up slot, whereas the plain answer's grid only names subjects, adds full timed papers that break the 30-minute limit, and has no dedicated slack.",
+    "The skill answer gives a day-by-day plan with an active method for every block, an explicit spacing table, accurate weighting and a protected catch-up slot, whereas the plain answer's weekly grid only names subjects and its stated totals (11-12 sessions, about 5 hours) do not match the 18 sessions it actually lists."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "tutoring",
+   "skill": "tutoring-session-planner",
+   "subject": "Chemistry",
+   "task": "I tutor a Year 10 student one to one online, GCSE chemistry, an hour a week. Last week we did ionic bonding; in the end-of-session check she got the dot-and-cross diagram for NaCl right but couldn't explain why ionic compounds have high melting points, and said she was 'guessing' on formulae like MgCl2. Homework was 6 questions on ionic formulae. School are starting covalent bonding next week. Plan this week's session.",
+   "criteria": [
+    "It starts with retrieval of what she got wrong last week (melting points, formulae), not a re-explanation",
+    "It reviews the homework and uses it as evidence of what to do next",
+    "The new teaching targets one clear focus, with modelling before she tries it",
+    "There is guided practice followed by independent practice, with the tutor watching method not just answers",
+    "It ends with a short check of what stuck and sets short homework she can do alone",
+    "It includes a brief note for the student and/or parent, and the chemistry is correct"
+   ],
+   "with": {
+    "criteria": [
+     1,
+     1.5,
+     1,
+     2,
+     2,
+     2
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 2730
+   },
+   "without": {
+    "criteria": [
+     0.5,
+     2,
+     1,
+     1,
+     2,
+     1
+    ],
+    "total": 7.5,
+    "max": 12,
+    "words": 1593
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer has a clear modelled, guided then independent practice sequence with answer keys, a mark scheme, homework answers and a parent note, while the plain answer lacks a parent/student note and a distinct guided-to-independent progression.",
+    "The skill answer is fully scripted with faded guided practice, independent practice with a mark scheme, an exit check, homework with answers and a parent note, while the plain answer lacks a student or parent note, does not open by retrieving the two gaps, and spreads over three teaching foci."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "cpd",
+   "skill": "cpd-session-designer",
+   "subject": "Leadership",
+   "task": "I'm a head of department. I've got a 60-minute slot at next week's staff meeting to train 15 teachers (mixed subjects, mixed confidence, some sceptical) on using AI to plan lessons. Most have never used it. Plan the session.",
+   "criteria": [
+    "It has one clear, limited goal for the hour rather than trying to cover everything about AI",
+    "Teachers spend a substantial part of the session (roughly a third or more) actually using the tool on their own real planning",
+    "It includes a live demonstration or worked example before teachers try it themselves",
+    "It addresses data protection or school policy (for example not entering student names) and shows where AI gets things wrong",
+    "Teachers leave with a specific commitment to try in their own classroom",
+    "There is a follow-up plan after the session (a check-in, sharing, or resource) and timings add up to about 60 minutes"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 2188
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 2137
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "Both meet every criterion and total 60 minutes, but the skill answer protects more hands-on time (23 minutes in pairs on each teacher's own lesson) and has a sharper written commitment card and dated follow-up table.",
+    "Both meet every criterion, but the skill answer protects more hands-on time, has a printable commitment card with a named partner, and gives a dated follow-up schedule with a way to measure impact."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "difficult-conversation",
+   "skill": "difficult-conversation-prep",
+   "subject": "Pastoral",
+   "task": "I've got a meeting tomorrow with a parent who emailed to say I'm 'picking on' her daughter (Year 9). The facts: I've given her three detentions this half-term, all for not having her equipment and talking over me. She's also had two from other teachers. Mum says her daughter comes home crying and that I 'clearly don't like her'. My head of year will be there. Help me prepare.",
+   "criteria": [
+    "It separates the facts (dates, reasons for detentions, other teachers' detentions) from interpretations",
+    "It plans a calm opening that states a shared aim before anything else",
+    "It has the teacher listen first and acknowledge the parent's and child's feelings without accepting the claim of being picked on",
+    "It prepares responses to likely difficult moments (anger, 'you don't like her', tears)",
+    "It ends with agreed next steps: who does what, and when it will be reviewed",
+    "It suggests a short written follow-up and makes sensible use of the head of year or school policy"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1724
+   },
+   "without": {
+    "criteria": [
+     1.5,
+     2,
+     2,
+     1,
+     1,
+     2
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 2196
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is tighter and covers tears explicitly, assigns next steps to teacher, student and parent with a review date, and includes a ready-to-send follow-up email, while the plain answer has no tears response and leaves the plan as a menu of options.",
+    "The skill answer is a tight brief with an explicit facts-versus-interpretations table, scripted responses including tears, who-does-what next steps with a review date, and a ready-to-send follow-up email, while the plain answer is thoughtful but longer, has no plan for tears, and leaves next steps as a menu of options."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "knowledge-organiser",
+   "skill": "knowledge-organiser",
+   "subject": "History",
+   "task": "Make a knowledge organiser for my Year 7 unit on the Norman Conquest (1066: the claimants, Stamford Bridge, Hastings, how William kept control: castles, feudal system, Domesday Book).",
+   "criteria": [
+    "It would fit on one page: selective, not an essay",
+    "Key vocabulary is listed with short, student-friendly definitions",
+    "There is a clear timeline or sequence of the key events with correct dates",
+    "Facts are chunked into sections a student can self-test on (for example cover and recall)",
+    "It tells students how to use it to test themselves, or includes quiz questions",
+    "The history is accurate (claimants, battles, dates, methods of control)"
+   ],
+   "with": {
+    "criteria": [
+     1,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 2515
+   },
+   "without": {
+    "criteria": [
+     0,
+     2,
+     2,
+     1.5,
+     2,
+     2
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 1823
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is tighter, numbered for cover-and-recall and comes with a ready-made blanked self-quiz version and answer key, whereas the plain answer is accurate but runs to several pages of essay-like content.",
+    "The skill answer is tighter and comes with a ready-made blanked self-quiz version and answer key, whereas the plain answer runs to several pages with extra content (Hereward, sources, historian questions) that defeats the one-page purpose."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "scheme-of-work",
+   "skill": "scheme-of-work-builder",
+   "subject": "Computing",
+   "task": "Plan a half-term (6 weeks, 2 lessons a week, 50 minutes each) for Year 8 computing on Python programming basics. They did Scratch in Year 7 and have never typed code. There's an assessment in the last week.",
+   "criteria": [
+    "All 12 lessons are listed in a sensible order where each builds on the last (for example output, variables, input, selection, iteration)",
+    "Each lesson has a clear objective and a main activity",
+    "It builds in retrieval of earlier lessons throughout, not just new content every lesson",
+    "It includes checkpoints before the final assessment so gaps are found early",
+    "It has a balance of reading or modifying code and writing code from scratch, suitable for beginners moving on from Scratch",
+    "The pace is realistic for Year 8 beginners in 50-minute lessons, and the final assessment matches what was taught"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 2072
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     1,
+     1,
+     2,
+     2
+    ],
+    "total": 10,
+    "max": 12,
+    "words": 2791
+   },
+   "preferences": [
+    "with",
+    "without"
+   ],
+   "reasons": [
+    "The skill answer builds spaced retrieval into every starter and has three checkpoints before the final assessment, though some lessons are overloaded; the plain answer is more detailed per lesson but only retrieves the previous lesson and has no real checkpoint until the final week.",
+    "The plain answer gives a timed, teachable plan for every lesson at a realistic pace, while the skill answer has stronger spaced retrieval and checks but crams 15-minute checks into lessons that also introduce new content (e.g. lists plus a practical check in L10) and includes stray internal references."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "code-exercise",
+   "skill": "code-exercise-builder",
+   "subject": "Computing",
+   "task": "Year 9, Python, first lesson on while loops. They know variables, input, if statements and for loops. Give me the programming tasks for the lesson.",
+   "criteria": [
+    "Students read and predict what given code does before writing their own",
+    "Tasks move gradually from changing existing code to writing new code",
+    "There is at least one debugging task with deliberate bugs, including an infinite loop or off-by-one error",
+    "Tasks have clear expected output or test cases so students know if they are right",
+    "Hints or support are provided for students who get stuck, and there is a stretch task",
+    "Solutions are provided and all the Python is correct"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 3593
+   },
+   "without": {
+    "criteria": [
+     2,
+     1,
+     2,
+     1,
+     1,
+     2
+    ],
+    "total": 9,
+    "max": 12,
+    "words": 1334
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer follows a clear predict-modify-make progression with full test tables, staged hints and correct worked solutions, while the plain answer jumps quickly to writing from scratch with fewer test cases and little support.",
+    "The skill answer follows a clear predict-modify-make progression with test tables, staged hints and full worked solutions, whereas the plain answer jumps quickly to writing from scratch and has few test cases or hints."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "cover",
+   "skill": "cover-lesson-planner",
+   "subject": "Science",
+   "task": "I'm off sick tomorrow. Year 8 science, period 3, 50 minutes, 30 students. We're in the middle of the digestive system unit (they've done the organs and their jobs; next is enzymes, which I want to teach myself). The cover teacher won't be a scientist. There are textbooks in the room but no computers. Write the cover work.",
+   "criteria": [
+    "There are clear instructions for the cover teacher that need no science knowledge, including timings",
+    "The work consolidates what has been taught (organs and their jobs) and does not try to teach enzymes",
+    "Students can do all of it independently with only textbooks, paper and pens",
+    "There is enough work for 50 minutes, including something for early finishers",
+    "Answers are provided so the cover teacher can go through them or students can be checked",
+    "It says what students should hand in or have completed, so the absent teacher can see what was done"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1707
+   },
+   "without": {
+    "criteria": [
+     1.5,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 11.5,
+    "max": 12,
+    "words": 1941
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "Both are strong, but the skill answer's timings add up consistently and it produces a single named student sheet to collect, while the plain answer's timing table contradicts its own lesson outline.",
+    "Both are strong, but the skill answer's single printed sheet with consistent timings and a named hand-in gives clearer evidence of what was done, while the plain answer's board outline timings (55 min, 5 vs 2 min exit ticket) do not match its own table."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  }
+ ]
+}

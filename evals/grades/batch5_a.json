@@ -1,0 +1,6 @@
+{"grader": "5a", "cases": [
+{"id": "revision-timetable", "x": [2,2,2,2,2,2], "y": [2,1,2,2,1,1], "prefer": "x", "reason": "X gives every block a specific active method, an explicit spacing table and a built-in catch-up slot, whereas Y's grid only names subjects, adds full timed papers that break the 30-minute limit, and has no dedicated slack."},
+{"id": "tutoring", "x": [1,2,1,1,2,1], "y": [1,2,1,2,2,2], "prefer": "y", "reason": "Y has a clear modelled, guided then independent practice sequence with answer keys, a mark scheme, homework answers and a parent note, while X lacks a parent/student note and a distinct guided-to-independent progression."},
+{"id": "cpd", "x": [2,2,2,2,2,2], "y": [2,2,2,2,2,2], "prefer": "x", "reason": "Both meet every criterion and total 60 minutes, but X protects more hands-on time (23 minutes in pairs on each teacher's own lesson) and has a sharper written commitment card and dated follow-up table."},
+{"id": "difficult-conversation", "x": [2,2,2,2,2,2], "y": [2,2,2,1,1,2], "prefer": "x", "reason": "X is tighter and covers tears explicitly, assigns next steps to teacher, student and parent with a review date, and includes a ready-to-send follow-up email, while Y has no tears response and leaves the plan as a menu of options."}
+]}

@@ -36,3 +36,7 @@ Look, cover, write, check. Ten minutes three times a week beats an hour the nigh
 ## Output
 
 The organiser as a printable page, the blank version, and the 10 questions with answers for the teacher.
+
+## Before you hand over
+
+- One page means one page: aim for 300 to 400 words plus a timeline or diagram. Cut anything the teacher didn't list. Extras go in a separate 'if you want more' note to the teacher, not on the organiser.

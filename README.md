@@ -14,6 +14,18 @@ Ask Claude for a lesson without any guidance and you get a lesson plan. Ask for 
 
 These skills fix that. Each one is a short, opinionated Claude skill that tells Claude how a teaching job is done well: what to ask, what to build, and what to check before handing it over. They're built on what works in classrooms (retrieval practice, worked examples, hinge questions, variation theory) and on how I run my own lessons, tutoring and parent communication.
 
+## Tested, not just claimed
+
+24 teaching tasks, each answered by Claude with the skill and without it, graded blind by a second model and checked by code where code can check.
+
+| | With the skill | Without |
+|---|---|---|
+| Criteria met | **96.4%** | 81.2% |
+| Blind graders preferred it | **44 of 48** | 4 of 48 |
+| Code checks passed (answer patterns, report wording, length, reading age) | **5 of 5** | 1 of 5 |
+
+[See every result](https://kal-eficia.github.io/ai-teaching-skills/results.html), or read the [method, limits and all 48 answers](evals/).
+
 ## Add them to Claude
 
 **The easy way: [kal-eficia.github.io/ai-teaching-skills](https://kal-eficia.github.io/ai-teaching-skills/)** has an **Add to Claude** button on every skill, plus step-by-step set-up. No GitHub or terminal needed.

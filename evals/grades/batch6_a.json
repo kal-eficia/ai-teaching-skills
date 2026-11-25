@@ -1,0 +1,6 @@
+{"grader": "6a", "cases": [
+{"id": "knowledge-organiser", "x": [1, 2, 2, 2, 2, 2], "y": [0, 2, 2, 1, 2, 2], "prefer": "x", "reason": "X is tighter, numbered for cover-and-recall and comes with a ready-made blanked self-quiz version and answer key, whereas Y is accurate but runs to several pages of essay-like content."},
+{"id": "scheme-of-work", "x": [2, 2, 2, 2, 2, 1], "y": [2, 2, 1, 1, 2, 2], "prefer": "x", "reason": "X builds spaced retrieval into every starter and has three checkpoints before the final assessment, though some lessons are overloaded; Y is more detailed per lesson but only retrieves the previous lesson and has no real checkpoint until the final week."},
+{"id": "code-exercise", "x": [2, 2, 2, 2, 2, 2], "y": [2, 1, 2, 1, 1, 2], "prefer": "x", "reason": "X follows a clear predict-modify-make progression with full test tables, staged hints and correct worked solutions, while Y jumps quickly to writing from scratch with fewer test cases and little support."},
+{"id": "cover", "x": [1, 2, 2, 2, 2, 2], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Both are strong, but Y's timings add up consistently and it produces a single named student sheet to collect, while X's timing table contradicts its own lesson outline."}
+]}

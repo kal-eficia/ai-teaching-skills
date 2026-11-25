@@ -1,0 +1,6 @@
+{"grader": "2a", "cases": [
+{"id": "misconceptions", "x": [2,2,2,2,2,2], "y": [1,2,2,2,2,2], "prefer": "x", "reason": "X organises everything by underlying idea and gives a ready-made hinge question with diagnostic distractors for each misconception, while Y is largely structured question by question."},
+{"id": "exam-question", "x": [2,2,2,2,2,1], "y": [2,2,2,2,2,2], "prefer": "y", "reason": "Y's describe-then-explain structure on the same data directly targets the explain weakness and covers temperature and denaturing, whereas X omits temperature and rejects 'sugar' alone, which is harsher than AQA's own wording."},
+{"id": "worked-example", "x": [2,2,2,2,2,2], "y": [2,1,0,2,1,2], "prefer": "x", "reason": "X fades support from full to partial examples with reasons at each step, while Y jumps straight from one lightly explained example to independent practice."},
+{"id": "reports", "x": [1,1,2,1,0,2], "y": [2,2,2,1,2,2], "prefer": "y", "reason": "Y opens every report with an earned strength and gives a single concrete next step, while X uses a generic 'pleasure to teach' opener, lists several fixes, and labels students as 'sociable' and 'bored'."}
+]}

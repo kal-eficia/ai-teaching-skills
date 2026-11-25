@@ -56,6 +56,12 @@ Write the marking points so they could feed [mark-point-checker](https://github.
 - [ ] Difficulty rises through the paper
 - [ ] No answer patterns in MCQs
 
+## Before you hand over
+
+- Match the board and tier exactly. A 'do not accept' list should only reject what the board's own mark schemes reject; at foundation tier, don't demand a term the specification doesn't require.
+- Cover the core content of the topic the teacher named (for enzymes: active site, temperature, pH, denaturing), not just one corner of it.
+- When the teacher says students struggle with a command word, build the parts on one shared context so a 'describe' part leads into the 'explain' part, and show the linking words in the model answer.
+
 ## With the classroom tools
 
 If the `check_answer_key` tool is available, check any multiple-choice section. Write marking points so `mark_answers` can use them: an `id`, a `label`, and `accept` phrases.

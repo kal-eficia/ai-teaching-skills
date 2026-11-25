@@ -8,8 +8,11 @@ live in site/. Run: python scripts/build_site.py
 import json
 import re
 import shutil
+import sys
 import zipfile
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 ROOT = Path(__file__).resolve().parent.parent
 SKILLS = ROOT / "skills"
@@ -69,6 +72,9 @@ def build():
     assert "—" not in page
     page = page.replace("__DATA__", payload)
     (OUT / "index.html").write_text(page, encoding="utf-8")
+    if (ROOT / "evals" / "results.json").exists():
+        import build_results
+        build_results.build(page, OUT / "results.html")
     (OUT / ".nojekyll").write_text("")
     print(f"built {len(data)} skills into {OUT}")
 
@@ -222,7 +228,8 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
     <nav class="top" aria-label="Main">
       <a href="#setup" class="hide-sm">Add to Claude</a>
       <a href="#skills">Skills</a>
-      <a href="__REPO__">GitHub</a>
+      <a href="results.html">Results</a>
+      <a href="__REPO__" class="hide-sm">GitHub</a>
     </nav>
   </div>
 </header>
@@ -242,6 +249,7 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
         <li>Written by a working teacher</li>
         <li>Built for Claude</li>
         <li>Free, MIT licence</li>
+        <li><a href="results.html">Tested blind: preferred 44 times out of 48</a></li>
       </ul>
     </div>
     <img class="hero-mark" src="brand/nur-mark.svg" alt="" width="300" height="300">

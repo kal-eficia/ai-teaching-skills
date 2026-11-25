@@ -1,0 +1,6 @@
+{"grader": "4a", "cases": [
+{"id": "send", "x": [2,2,2,2,2,2], "y": [2,2,2,2,2,2], "prefer": "y", "reason": "Both meet every criterion, but Y hands over a ready-to-print adapted worksheet with timed steps, evidence grid and PEEL boxes, so there is less to make tonight."},
+{"id": "text-level", "x": [2,2,2,2,2,2], "y": [2,2,2,2,2,1], "prefer": "x", "reason": "Both rewrites are accurate and pitched well, but X adds headings, a glossary, comprehension questions and a clear note of what changed, while Y gives the text alone."},
+{"id": "class-feedback", "x": [1,2,2,2,2,1], "y": [2,2,2,2,2,1], "prefer": "y", "reason": "Y is an actual one-page student sheet with code-matched fix tasks and a labelled model paragraph, whereas X is a lesson plan the teacher still has to turn into a handout; both have a small literature slip (X puts a paraphrase in quotation marks, Y says 'his own' is repeated when it appears once)."},
+{"id": "homework", "x": [2,2,2,2,2,2], "y": [1,2,2,2,2,2], "prefer": "x", "reason": "X fits a 20-minute slot with accurate French, a checked answer key and a parent role that only means listening and signing, while Y runs to 30-35 minutes and asks more of parents."}
+]}

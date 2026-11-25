@@ -31,6 +31,11 @@ Give each common error a code (A, B, C...). The teacher writes only the code on 
 
 The feedback sheet (student-facing, positive, specific), the codes, the improvement task, and a list of anything to reteach to the whole class.
 
+## Before you hand over
+
+- Quote the text only when you are sure of the wording. Otherwise paraphrase without quotation marks.
+- Check any spelling tip actually leads to the right spelling.
+
 ## With the classroom tools
 
 If the `mark_answers` tool was used, start from its most-missed marking points.

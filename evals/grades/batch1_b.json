@@ -1,0 +1,6 @@
+{"grader": "1b", "cases": [
+{"id": "lesson-pack", "x": [2, 1, 2, 2, 2, 2], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Y gives a genuinely separate student-facing interactive page with no teacher notes, a from-memory starter with confidence ratings and a one-screen solutions sheet, whereas X keeps all student questions and homework inside the teacher document."},
+{"id": "recall-starter", "x": [2, 2, 2, 2, 2, 2], "y": [2, 2, 2, 1, 2, 2], "prefer": "x", "reason": "X fully interleaves topics, double-checks both quiz gaps from different angles and explains why each question was chosen, while Y puts two particle-model questions next to each other."},
+{"id": "quiz", "x": [2, 1, 1, 0, 0, 0], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Y mixes in map skills, explains what every wrong option reveals and says how to use the results, while X is a bare quiz with some silly distractors, no explanations and map skills explicitly excluded."},
+{"id": "hinge", "x": [2, 1, 2, 2, 2, 1], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Y ties every wrong option to a specific real misconception with a detailed decision rule per option, whereas X has vague or non-misconception distractors (e.g. '7 is prime') and misdescribes the 2/6 error as keeping a denominator."}
+]}

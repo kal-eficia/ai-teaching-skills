@@ -1,0 +1,6 @@
+{"grader": "1a", "cases": [
+{"id": "lesson-pack", "x": [2,1,2,2,2,2], "y": [2,2,2,2,2,2], "prefer": "y", "reason": "Y gives a genuinely separate student-facing page written to the student plus a one-screen solutions sheet, whereas X's materials are almost entirely teacher-facing script and slide notes."},
+{"id": "recall-starter", "x": [2,2,2,2,2,2], "y": [2,2,2,1,2,2], "prefer": "x", "reason": "X fully interleaves topics, double-checks both weak spots from different angles and explains why each question is there, while Y places two particle-model questions back to back and its compound question gives the answer away in the stem."},
+{"id": "quiz", "x": [2,1,2,0,0,0], "y": [2,2,2,2,2,2], "prefer": "y", "reason": "Y is accurate and adds map-skills interleaving, a misconception guide per option, confidence ratings and advice on using the results, while X is a bare quiz with an answer line and a few throwaway distractors."},
+{"id": "hinge", "x": [2,1,2,2,1,1], "y": [2,2,2,2,2,2], "prefer": "y", "reason": "Y maps every wrong option to a correct, specific misconception with a targeted decision rule for each, whereas X misdescribes the 2/6 error and its third option's distractors are not real misconceptions."}
+]}

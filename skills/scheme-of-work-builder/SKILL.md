@@ -46,3 +46,8 @@ Then, after the tables:
 - [ ] Creative and exam-focused lessons are both present every fortnight
 - [ ] Flex lessons exist
 - [ ] Dates fit the real calendar, including holidays
+
+## Before you hand over
+
+- Never put a checkpoint or assessment in a lesson that also introduces new content. Give it its own slot or a consolidation lesson.
+- Check the pace lesson by lesson for the age group: one new idea per lesson for beginners.

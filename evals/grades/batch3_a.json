@@ -1,0 +1,6 @@
+{"grader": "3a", "cases": [
+{"id": "parent-message", "x": [0, 2, 1, 2, 2, 2], "y": [2, 2, 2, 2, 1, 2], "prefer": "y", "reason": "Y is short enough to read at a glance with one action (reply YES by a date), while X runs to about 150 words and asks the parent for two things."},
+{"id": "ai-proof", "x": [2, 0, 2, 1, 1, 1], "y": [2, 2, 2, 2, 2, 1], "prefer": "y", "reason": "Y is one complete, student-facing task with a from-memory stage, clear AI rules, a submission list and a 20-mark scheme that adds up, while X is a menu of options I would still have to turn into a task."},
+{"id": "six-week-review", "x": [2, 2, 2, 2, 1, 2], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Both are accurate (average 43% to 59%), but Y keeps to three priorities with actions and targets and is more careful about what the data can't show, whereas X lists six plan items and states guesses about probability coverage as fact."},
+{"id": "explanation", "x": [2, 2, 2, 2, 1, 2], "y": [2, 2, 1, 2, 1, 2], "prefer": "x", "reason": "X does the torch demo before introducing tilt and names where the analogy breaks down, whereas Y explains the abstract tilt facts before any demo; neither puts real checking questions all the way through."}
+]}
