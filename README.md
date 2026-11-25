@@ -1,7 +1,7 @@
 <p align="center"><img src=".github/banner.png" alt="AI teaching skills" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-7-0f8b8d?style=flat-square" alt="7 skills">
+  <img src="https://img.shields.io/badge/skills-10-0f8b8d?style=flat-square" alt="10 skills">
   <img src="https://img.shields.io/badge/works%20with-Claude%20%C2%B7%20any%20agent-0c1a30?style=flat-square" alt="Works with Claude and other agents">
   <img src="https://img.shields.io/badge/licence-MIT-c99a2e?style=flat-square" alt="MIT">
 </p>
@@ -20,7 +20,10 @@ These skills fix that. Each one is a short, opinionated playbook, written by a w
 | [**student-report-writer**](skills/student-report-writer/SKILL.md) | Reports that are honest, specific and kind, with different wording for every student |
 | [**parent-message**](skills/parent-message/SKILL.md) | Short, plain-language messages to parents with one clear call to action |
 | [**ai-proof-tasks**](skills/ai-proof-tasks/SKILL.md) | Redesigns homework and coursework so students still learn when AI is available |
-| [**agent-build-spec**](skills/agent-build-spec/SKILL.md) | Turns an app idea into phase-gated prompts for Replit Agent, Claude Code or Cursor, UI first, with a stop gate after every phase |
+| [**exam-question-writer**](skills/exam-question-writer/SKILL.md) | Original exam-style questions and mark schemes that use the board's command words and mark allocations properly |
+| [**scheme-of-work-builder**](skills/scheme-of-work-builder/SKILL.md) | A term or year of lessons, sequenced by dependency, with spaced retrieval, assessment points and a balance of creative and exam work |
+| [**misconception-finder**](skills/misconception-finder/SKILL.md) | Groups wrong answers by the idea behind them and plans the fix, confident-but-wrong first |
+| [**parent-evening-prep**](skills/parent-evening-prep/SKILL.md) | A phone-sized brief per student: one strength, one priority, one home action and who does it |
 
 ## Install
 
@@ -44,6 +47,8 @@ cp -r ai-teaching-skills/skills/* ~/.claude/skills/
 
 > Write end-of-term reports for these six students. Here are my notes on each. (paste notes)
 
+> Here are last week's quiz results. What are they confusing, and what should I reteach first?
+
 ## The principles behind them
 
 - **Recall first.** Lessons open with retrieval from memory, spaced and interleaved.
@@ -58,6 +63,8 @@ cp -r ai-teaching-skills/skills/* ~/.claude/skills/
 - [pattern-guard](https://github.com/kal-eficia/pattern-guard): the answer-pattern checker as a CLI and library
 - [recall-engine](https://github.com/kal-eficia/recall-engine): spaced-retrieval starters from a question bank and attempts log
 - [lesson-page-kit](https://github.com/kal-eficia/lesson-page-kit): the student-page engine the lesson-pack skill can write for
+- [mark-point-checker](https://github.com/kal-eficia/mark-point-checker): marks short answers against the mark schemes the exam-question skill writes
+- [ai-skills-kit](https://github.com/kal-eficia/ai-skills-kit): skills for AI adoption, creators and builders
 
 ## Contributing
 
