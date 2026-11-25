@@ -5,6 +5,8 @@ description: Redesign homework, coursework and classroom tasks so students still
 
 # AI-Proof Tasks
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 Banning AI doesn't work and detecting it doesn't work. Designing the task does. The aim isn't to make kids fear AI. It's to make sure the learning still happens in their head.
 
 ## Diagnose the task first

@@ -1,0 +1,20 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Validate skills
+        run: python scripts/validate_skills.py --require-context
+      - name: Test the bundled answer-pattern checker
+        run: |
+          if python skills/no-answer-patterns/scripts/check_key.py --key ABCDABCD --options 4; then echo "staircase not caught"; exit 1; fi
+          python skills/no-answer-patterns/scripts/check_key.py --key CADBDACB --options 4

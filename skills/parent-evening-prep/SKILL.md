@@ -5,6 +5,8 @@ description: Prepare for parents' evening or a parent call: a short, honest brie
 
 # Parent Evening Prep
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 Five minutes per family goes fast. Parents remember one thing. Make sure it's the right one.
 
 ## Inputs

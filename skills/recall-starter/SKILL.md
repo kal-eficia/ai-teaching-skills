@@ -5,6 +5,8 @@ description: Build a 5 to 10 question retrieval starter for the next lesson from
 
 # Recall Starter
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 The first five minutes of a lesson should make students pull old knowledge out of memory, not re-read it. That is what makes it stick. This skill builds those five minutes.
 
 ## What goes in (priority order)

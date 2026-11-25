@@ -5,6 +5,8 @@ description: Find the misconceptions behind students' wrong answers, group them,
 
 # Misconception Finder
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 A wrong answer is information. Ten wrong answers that share a cause are a lesson plan.
 
 ## Mode A: from student work

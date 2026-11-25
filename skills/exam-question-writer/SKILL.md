@@ -5,6 +5,8 @@ description: Write original exam-style questions with mark schemes that match a 
 
 # Exam Question Writer
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 Students lose marks on questions they understand because they misread what the command word asks for. Practice questions only help if they behave like the real paper.
 
 ## Step 1: Pin the target

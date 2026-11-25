@@ -5,6 +5,8 @@ description: Check and fix multiple-choice quizzes and sort/match tasks so the c
 
 # No Answer Patterns
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 Students learn the shape of an answer key faster than they learn the content. If the last three answers were B, C, D, they will pick A next. This skill makes sure the key gives nothing away.
 
 ## What counts as a pattern

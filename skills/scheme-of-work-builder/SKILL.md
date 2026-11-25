@@ -5,6 +5,8 @@ description: Plan a term or year of lessons as a scheme of work: sequenced lesso
 
 # Scheme of Work Builder
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 A scheme of work is a promise about what students will be able to do by a date. Good ones are sequenced so each lesson builds on the last, revisit earlier content before it fades, and leave room for the lessons that go wrong.
 
 ## Inputs

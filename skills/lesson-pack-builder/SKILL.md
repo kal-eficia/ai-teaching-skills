@@ -5,6 +5,8 @@ description: Build a complete, ready-to-teach lesson pack (teacher plan, interac
 
 # Lesson Pack Builder
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 A lesson pack is five things that work together. Build all five every time. A teacher who asked for a lesson and got only a plan has to do the rest at 11pm.
 
 | File | Who sees it | What it's for |

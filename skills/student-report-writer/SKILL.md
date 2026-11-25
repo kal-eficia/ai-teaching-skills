@@ -5,6 +5,8 @@ description: Write termly or end-of-unit student reports that are honest, specif
 
 # Student Report Writer
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 Parents read a report three times. Students read it once and remember one line. Write for both.
 
 ## Inputs to gather

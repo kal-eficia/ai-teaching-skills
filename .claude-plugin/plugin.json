@@ -1,0 +1,10 @@
+{
+  "name": "ai-teaching-skills",
+  "version": "1.0.0",
+  "description": "56 agent skills for teachers, tutors and school leaders: planning, retrieval, assessment, feedback, inclusion, pastoral, parents and AI in the classroom.",
+  "author": { "name": "Kalid Nur", "url": "https://github.com/kal-eficia" },
+  "homepage": "https://github.com/kal-eficia/ai-teaching-skills",
+  "repository": "https://github.com/kal-eficia/ai-teaching-skills",
+  "license": "MIT",
+  "keywords": ["teaching", "education", "lesson-planning", "assessment", "retrieval-practice", "tutoring", "skills"]
+}

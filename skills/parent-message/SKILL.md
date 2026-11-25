@@ -5,6 +5,8 @@ description: Draft short, plain-language messages from teachers and tutors to pa
 
 # Parent Message
 
+> If `teaching-context.md` exists, read it first, follow its house rules, and don't ask for anything it already answers.
+
 Parents read school messages on a phone, between other things. A good one can be understood in ten seconds and acted on in one tap.
 
 ## Rules
