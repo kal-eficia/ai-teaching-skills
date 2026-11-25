@@ -3,14 +3,14 @@
   "owner": { "name": "Kalid Nur", "url": "https://github.com/kal-eficia" },
   "metadata": {
     "description": "Claude skills for teachers, tutors and school leaders, written by a working teacher.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "ai-teaching-skills",
       "source": "./",
       "description": "56 Claude skills for teachers: planning, retrieval, assessment, feedback, inclusion, pastoral, parents and AI in the classroom.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": { "name": "Kalid Nur" },
       "category": "education"
     }

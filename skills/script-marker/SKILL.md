@@ -31,3 +31,7 @@ What earned marks, and the one thing that would earn the next mark: "You explain
 - Short feedback per student
 - Class patterns: the most common missing point per question (feed into `whole-class-feedback`)
 - A list of every flagged answer for the teacher to decide
+
+## With the classroom tools
+
+If the `mark_answers` tool is available, use it for a first pass on short answers, then read every answer it flags for a teacher check and correct any mark where it matched the words but missed the meaning.

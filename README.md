@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/skills-56-0f8b8d?style=flat-square" alt="56 skills">
   <a href="https://github.com/kal-eficia/ai-teaching-skills/actions/workflows/validate.yml"><img src="https://github.com/kal-eficia/ai-teaching-skills/actions/workflows/validate.yml/badge.svg" alt="validate"></a>
+  <a href="https://github.com/kal-eficia/ai-teaching-skills/actions/workflows/tests.yml"><img src="https://github.com/kal-eficia/ai-teaching-skills/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
   <img src="https://img.shields.io/badge/built%20for-Claude-0c1a30?style=flat-square" alt="Built for Claude">
   <img src="https://img.shields.io/badge/licence-MIT-c99a2e?style=flat-square" alt="MIT">
 </p>
@@ -26,12 +27,13 @@ These skills fix that. Each one is a short, opinionated Claude skill that tells 
 
 On a school Team or Enterprise plan, an owner can publish skills to every member of staff, so teachers don't have to upload anything.
 
-**Claude Code plugin**
+**Claude Code plugin (skills, tools and commands together)**
 
 ```
-/plugin marketplace add kal-eficia/ai-teaching-skills
-/plugin install ai-teaching-skills
+/plugin install ai-teaching-skills --marketplace kal-eficia/ai-teaching-skills
 ```
+
+On older versions of Claude Code, run `/plugin marketplace add kal-eficia/ai-teaching-skills` first, then `/plugin install ai-teaching-skills`.
 
 **Claude Code, by hand**
 
@@ -164,6 +166,30 @@ Add **teaching-context** first and ask Claude to set it up. It interviews you on
 | [**code-exercise-builder**](skills/code-exercise-builder/SKILL.md) | Predict, run, investigate, modify, make: programming tasks with tests, hints and solutions |
 | [**problem-set-builder**](skills/problem-set-builder/SKILL.md) | Maths practice built on variation theory, from fluency to problem solving |
 | [**practical-lesson-planner**](skills/practical-lesson-planner/SKILL.md) | Practicals with safety, method, results tables and the exam questions that follow |
+
+## The Claude Classroom plugin
+
+In Claude Code the plugin adds more than the skills. It ships a small tool server (plain Python, nothing to install) so Claude checks its own work with code instead of by eye, and slash commands that run a whole job in one go.
+
+| Command | What it does |
+|---|---|
+| `/lesson-pack` | Builds the full pack, validates the lesson, and writes a working interactive student page |
+| `/starter` | Picks today's retrieval starter from your question bank and attempts log |
+| `/check-quiz` | Finds and fixes answer patterns in a quiz or sort task |
+| `/mark` | First-pass marks short answers against a mark scheme, then writes whole-class feedback |
+| `/reports` | Writes a batch of reports and checks them for repeated wording, jargon and length |
+| `/review` | Six-week progress review from the attempts log |
+| `/teaching-setup` | Sets up your teaching context |
+
+| Tool | What Claude uses it for |
+|---|---|
+| `check_answer_key`, `fix_answer_key`, `plan_answer_key` | No guessable answer patterns, ever ([pattern-guard](https://github.com/kal-eficia/pattern-guard)) |
+| `recall_starter`, `log_attempts`, `progress_review` | Spaced retrieval and progress from real results ([recall-engine](https://github.com/kal-eficia/recall-engine)) |
+| `mark_answers` | Marking points, evidence and class gaps ([mark-point-checker](https://github.com/kal-eficia/mark-point-checker)) |
+| `validate_lesson`, `build_lesson_page` | A student page that works on any device ([lesson-page-kit](https://github.com/kal-eficia/lesson-page-kit)) |
+| `check_reports`, `text_stats` | Report quality, word limits and reading level |
+
+The tools run on your own computer. Nothing is sent anywhere, and no AI model is involved in the checks. The skills work without the plugin too; they simply use the tools when they are there.
 
 ## Examples
 

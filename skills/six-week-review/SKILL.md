@@ -30,3 +30,7 @@ Sandwich form: a real strength with evidence, the one priority and what the stud
 ## Output
 
 A comparison table, a short analysis for the teacher, three priorities with actions, and the student or parent summary.
+
+## With the classroom tools
+
+If the `progress_review` tool is available and there is an attempts log, use it for the comparison table, then run the summary for home through `check_reports`.

@@ -38,3 +38,7 @@ Hi [parent name or "Assalamu alaykum" / greeting that fits the community],
 - [ ] Could a parent who has never heard of the programme understand it?
 - [ ] Is there exactly one action, and is it clear who does it?
 - [ ] Is anything here private to another child? Remove it.
+
+## With the classroom tools
+
+If the `text_stats` tool is available, use it to confirm the word limit and that the reading level suits a busy parent reading on a phone.

@@ -28,3 +28,7 @@ A hinge question is a decision tool. Every student answers at the same moment, t
 ## Output
 
 For each question: the question and options, the correct answer, what each wrong option reveals, and the decision rule.
+
+## With the classroom tools
+
+If the `check_answer_key` tool is available, check the correct-answer positions across the set of hinge questions.

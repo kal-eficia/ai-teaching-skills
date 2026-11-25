@@ -44,3 +44,7 @@ If there's no data, ask what was taught in the last four lessons and what the cl
 
 1. The student-facing starter (questions only, numbered).
 2. The teacher key: answer, topic, and reason chosen, per question.
+
+## With the classroom tools
+
+If the `recall_starter` and `log_attempts` tools are available and the teacher keeps a question bank, use `recall_starter` to choose the questions and `log_attempts` to record the results afterwards. Run any multiple-choice questions through `check_answer_key`.

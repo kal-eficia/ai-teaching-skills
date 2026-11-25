@@ -28,3 +28,7 @@ Suggest the routine: students answer from memory, then check, then correct in a 
 1. The student quiz (numbered, clean, with the confidence column if wanted)
 2. The answer key with, for each question, the topic, the misconception each wrong option reveals, and where it was taught
 3. One line on what to do with the results
+
+## With the classroom tools
+
+If the `plan_answer_key` and `check_answer_key` tools are available, plan the key before writing the multiple-choice questions and check the finished quiz.

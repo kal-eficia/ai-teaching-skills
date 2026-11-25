@@ -40,3 +40,7 @@ Never invent evidence. If you don't know something, leave it out.
 ## Output
 
 A table or list: student (placeholder or name), report text, word count. Flag any student where you had too little evidence to write something specific, so the teacher can add a line.
+
+## With the classroom tools
+
+If the `check_reports` tool is available, run the whole batch through it (with the school's word limits) and rewrite anything it flags before handing over.

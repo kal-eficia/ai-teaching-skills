@@ -30,3 +30,7 @@ Give each common error a code (A, B, C...). The teacher writes only the code on 
 ## Output
 
 The feedback sheet (student-facing, positive, specific), the codes, the improvement task, and a list of anything to reteach to the whole class.
+
+## With the classroom tools
+
+If the `mark_answers` tool was used, start from its most-missed marking points.

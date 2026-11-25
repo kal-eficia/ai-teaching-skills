@@ -294,9 +294,10 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
       <li>Every chat in that Project now follows the skill, which works well for one class's lessons, reports or parent messages.</li>
     </ol></div>
     <div class="guide" data-panel="code" hidden><ol>
-      <li>Install as a plugin: <span class="mono">/plugin marketplace add kal-eficia/ai-teaching-skills</span>, then <span class="mono">/plugin install ai-teaching-skills</span></li>
-      <li>Or copy them in: download <a href="downloads/ai-teaching-skills-all.zip">all __COUNT__ skills</a> and unzip into <span class="mono">~/.claude/skills/</span>.</li>
-      <li>Type <span class="mono">/lesson-pack-builder</span> (or any skill name) to run one directly. Source is on <a href="__REPO__">GitHub</a>.</li>
+      <li><b>Install the plugin:</b> <span class="mono">/plugin install ai-teaching-skills --marketplace kal-eficia/ai-teaching-skills</span></li>
+      <li><b>You get three things:</b> all __COUNT__ skills, a set of classroom tools that let Claude check its own work with code (answer patterns, marking, report wording, reading level), and one-line commands.</li>
+      <li><b>Try a command:</b> <span class="mono">/lesson-pack Y10 IGCSE CS, the CPU, 50 min</span> builds the whole pack and a working student page. Also <span class="mono">/starter</span>, <span class="mono">/check-quiz</span>, <span class="mono">/mark</span>, <span class="mono">/reports</span> and <span class="mono">/review</span>.</li>
+      <li>The tools run on your own computer and send nothing anywhere. Source is on <a href="__REPO__">GitHub</a>.</li>
     </ol></div>
     <p style="margin-top:40px;font-size:16px">Using ChatGPT, Gemini or Copilot as well? The skills are plain text, so "Copy text" and paste one into a custom GPT, a Gem or the chat. Or install with <span class="mono">npx skills add kal-eficia/ai-teaching-skills</span> for other coding agents.</p>
   </div>

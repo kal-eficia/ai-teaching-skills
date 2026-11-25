@@ -28,3 +28,7 @@ Simplifying a text shouldn't simplify the subject. Keep the facts and key vocabu
 - A glossary of the subject words
 - 5 comprehension questions per version: the same core questions across versions so the class can discuss together, plus one extension question
 - A note listing anything deliberately left out of the support version (ideally nothing essential)
+
+## With the classroom tools
+
+If the `text_stats` tool is available, measure the reading age before and after, and list the long sentences and hard words it reports that you chose to keep.

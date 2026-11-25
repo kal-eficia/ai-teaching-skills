@@ -61,3 +61,7 @@ Include: objectives (spec wording), a minute-by-minute timeline, what to say at 
 - [ ] No answer patterns in MCQs or sort tasks (run the check, don't eyeball it)
 - [ ] Every fact is right for the named spec; nothing invented
 - [ ] Open the HTML and click through it once
+
+## With the classroom tools
+
+If the `validate_lesson` and `build_lesson_page` tools are available, write the student page as lesson JSON (lesson-page-kit format), validate it, fix every error and teacher-voice warning, then build `student-page.html` with `build_lesson_page`. Run homework quizzes through `check_answer_key`.

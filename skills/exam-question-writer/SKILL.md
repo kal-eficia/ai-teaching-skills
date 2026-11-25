@@ -55,3 +55,7 @@ Write the marking points so they could feed [mark-point-checker](https://github.
 - [ ] Nothing outside the named specification
 - [ ] Difficulty rises through the paper
 - [ ] No answer patterns in MCQs
+
+## With the classroom tools
+
+If the `check_answer_key` tool is available, check any multiple-choice section. Write marking points so `mark_answers` can use them: an `id`, a `label`, and `accept` phrases.

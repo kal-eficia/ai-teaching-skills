@@ -52,3 +52,7 @@ For bigger projects, use the full [pattern-guard](https://github.com/kal-eficia/
 - [ ] Every MCQ set and every sort task checked by the script
 - [ ] Correct answers still correct after reordering (the script verifies this)
 - [ ] Across a multi-page lesson, check the whole lesson's key, not each page alone
+
+## With the classroom tools
+
+If the `check_answer_key`, `fix_answer_key` and `plan_answer_key` tools are available (the Claude Code plugin provides them), use them instead of running the script by hand. Plan the key first with `plan_answer_key` when you are writing a new quiz.
