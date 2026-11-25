@@ -1,0 +1,34 @@
+{
+ "exam-question": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "parent-message": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "explanation": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "class-feedback": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "homework": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "tutoring": {
+  "with_skill": "x",
+  "without_skill": "y"
+ },
+ "knowledge-organiser": {
+  "with_skill": "y",
+  "without_skill": "x"
+ },
+ "scheme-of-work": {
+  "with_skill": "x",
+  "without_skill": "y"
+ }
+}

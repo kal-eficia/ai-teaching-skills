@@ -40,6 +40,7 @@ def build(index_html: str, out: Path) -> None:
 .bar{height:12px;background:var(--paper-2)}.bar span{display:block;height:100%}
 .tag{display:inline-block;font-size:13px;font-weight:600;padding:3px 8px;border:1px solid var(--rule);margin:8px 8px 0 0;color:var(--ink-2)}
 .tag.ok{border-color:var(--ink);color:var(--ink)}.tag.no{color:var(--brass);border-color:var(--brass)}
+.rt{border-collapse:collapse;width:100%;max-width:860px;font-size:16px}.rt th,.rt td{text-align:start;padding:10px 12px 10px 0;border-bottom:1px solid var(--rule)}.rt th{border-bottom:1.5px solid var(--ink)}.rt td:first-child{text-transform:capitalize}
 .limits li{margin:8px 0;color:var(--ink-2)}.limits{max-width:70ch;padding-inline-start:20px}
 """
     rows = []
@@ -64,6 +65,21 @@ def build(index_html: str, out: Path) -> None:
 <p style="margin-top:14px;font-size:15px">{e(c['reasons'][0])}</p>
 <p style="font-size:15px;font-weight:600"><a href="{REPO}/blob/main/evals/outputs/{c['id']}/with-skill.md">Read the skill answer</a> &nbsp; <a href="{REPO}/blob/main/evals/outputs/{c['id']}/without-skill.md">Read the plain answer</a></p>
 </div></article>""")
+    retest = ""
+    rp = ROOT / "evals" / "retest.json"
+    if rp.exists():
+        rt = json.loads(rp.read_text(encoding="utf-8"))
+        first = {c["id"]: c for c in data["cases"]}
+        trs = "".join(
+            f"<tr><td>{e(c['skill'].replace('-', ' '))}</td><td>{first[c['id']]['with']['total']:g} v {first[c['id']]['without']['total']:g}</td>"
+            f"<td><b>{c['with']['total']:g} v {c['without']['total']:g}</b></td><td>{c['preferences'].count('with')} of {len(c['preferences'])}</td></tr>"
+            for c in rt["cases"])
+        rs = rt["summary"]
+        retest = f"""<section><div class="wrap">
+<p class="kicker">Fixed and tested again</p><h2>The re-test</h2>
+<p class="lead">Eight skills were tightened using the graders' notes, then tested again with fresh answers and new blind graders. Scores are skill v plain, out of 12. The skill answer was preferred in {rs['prefer_with']} of {rs['prefer_with'] + rs['prefer_without'] + rs['prefer_tie']} judgements.</p>
+<table class="rt"><tr><th>Skill</th><th>First run</th><th>Re-test</th><th>Graders preferred skill</th></tr>{trs}</table>
+</div></section>"""
     body = f"""<main>
 <section class="hero" style="padding-bottom:64px"><div class="wrap">
 <p class="kicker">Tested, not just claimed</p>
@@ -80,6 +96,7 @@ def build(index_html: str, out: Path) -> None:
 <p class="lead" style="margin-bottom:8px">Biggest differences first. Scores are out of 12, averaged over two graders. Both answers to every task are public.</p>
 {''.join(rows)}
 </div></section>
+{retest}
 <section class="on-ink"><div class="wrap">
 <p class="kicker">Read this too</p><h2>The limits</h2>
 <ul class="limits">
@@ -87,7 +104,7 @@ def build(index_html: str, out: Path) -> None:
 <li>One run per task. Single results can vary; the pattern across {s['cases']} tasks is the finding.</li>
 <li>The graders are AI models, not teachers. A teacher panel is the next step.</li>
 <li>Many answers scored near full marks, so the scores understate differences at the top.</li>
-<li>The skill lost on the exam-question task and that skill has since been tightened. Fixes made after the test have not been re-tested yet.</li>
+<li>The skill lost on the exam-question task in the first run. Eight skills were tightened and re-tested the same day; the re-test is shown above.</li>
 </ul>
 <p style="margin-top:28px"><a href="{REPO}/tree/main/evals">Full method, every answer and the grading files are on GitHub</a>.</p>
 </div></section>

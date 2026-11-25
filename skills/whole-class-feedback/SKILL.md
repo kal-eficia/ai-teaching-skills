@@ -33,7 +33,7 @@ The feedback sheet (student-facing, positive, specific), the codes, the improvem
 
 ## Before you hand over
 
-- Quote the text only when you are sure of the wording. Otherwise paraphrase without quotation marks.
+- Quote the text only when you are sure of the wording. If you are not sure, don't use that line at all: build the model answer on a quotation you are certain of, or paraphrase without quotation marks. Never hand the teacher a model with a quotation they have to go and check.
 - Check any spelling tip actually leads to the right spelling.
 
 ## With the classroom tools

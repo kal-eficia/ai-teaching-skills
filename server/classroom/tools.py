@@ -381,8 +381,6 @@ def validate_lesson(lesson: dict | None = None, lesson_path: str | None = None) 
                     errors.append(f"{where}: two options are identical")
                 if not b.get("why"):
                     warnings.append(f"{where}: no 'why', so students get no explanation after answering")
-                if pinned_slots(opts):
-                    warnings.append(f"{where}: options like 'All of the above' get shuffled by the page; reword them")
             elif t == "sort":
                 buckets, items = b.get("buckets") or [], b.get("items") or []
                 if len(buckets) < 2:

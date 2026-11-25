@@ -1,0 +1,6 @@
+{"grader": "1b", "cases": [
+{"id": "exam-question", "x": [1,1,2,2,2,2], "y": [2,2,2,2,2,2], "prefer": "y", "reason": "Y builds a clear give-describe-explain-explain ladder with two linked-reason explain parts and full model answers, whereas X ends with an easy 1-mark part after the 4-mark explain and its mark scheme credits simply restating 'too alkaline', which its own notes call a common error."},
+{"id": "parent-message", "x": [2,2,2,1,2,2], "y": [0,2,1,2,2,2], "prefer": "x", "reason": "X is about 70 words with a single 'reply YES' action, while Y runs to about 150 words and asks the parent to do two or three different things."},
+{"id": "explanation", "x": [2,2,2,2,2,2], "y": [2,2,1,2,1,2], "prefer": "x", "reason": "X puts the torch demonstration before the abstract tilt idea and checks understanding at every step, whereas Y explains the tilt first and saves most of its questions for the end."},
+{"id": "class-feedback", "x": [2,2,2,2,2,2], "y": [2,2,2,2,2,2], "prefer": "x", "reason": "Both are accurate and complete, but X's A-to-D letter codes let the teacher target each essay in about five minutes and send each student straight to a matching rewrite task."}
+]}

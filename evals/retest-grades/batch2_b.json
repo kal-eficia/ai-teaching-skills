@@ -1,0 +1,6 @@
+{"grader": "2b", "cases": [
+{"id": "homework", "x": [2, 2, 2, 2, 2, 2], "y": [1, 2, 2, 1, 1, 2], "prefer": "x", "reason": "X is a genuinely short 25-minute task with a quick key and a parent role that needs no French, whereas Y runs to 27 marks plus extended writing and asks non-French-speaking parents to check answers against a key."},
+{"id": "tutoring", "x": [2, 2, 2, 2, 2, 2], "y": [1, 1, 1, 2, 2, 1], "prefer": "x", "reason": "X opens by retrieving exactly last week's gaps, keeps one teaching focus with modelling before practice, and includes student and parent notes, while Y re-teaches two topics plus a covalent bridge and has no note for student or parent."},
+{"id": "knowledge-organiser", "x": [0, 2, 2, 1, 2, 2], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Y is a tight, numbered one-page organiser with a blank cover-and-recall version and quiz, whereas X is accurate but far too long to be a one-page organiser."},
+{"id": "scheme-of-work", "x": [2, 2, 2, 2, 2, 2], "y": [2, 1, 1, 1, 2, 1], "prefer": "x", "reason": "X builds named retrieval into every starter, adds two mid-unit checks and flex lessons, and keeps a realistic pace whose assessment matches what was taught, while Y crams more content and only checks for gaps in the final week."}
+]}

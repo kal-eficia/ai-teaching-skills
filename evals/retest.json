@@ -1,0 +1,431 @@
+{
+ "summary": {
+  "cases": 8,
+  "skills": 8,
+  "with_pct": 98.4,
+  "without_pct": 79.7,
+  "cases_skill_higher": 7,
+  "cases_baseline_higher": 1,
+  "cases_level": 0,
+  "prefer_with": 15,
+  "prefer_without": 1,
+  "prefer_tie": 0,
+  "auto_with_pass": 1,
+  "auto_without_pass": 0,
+  "auto_total": 1,
+  "median_words_with": 1181,
+  "median_words_without": 1199
+ },
+ "cases": [
+  {
+   "id": "exam-question",
+   "skill": "exam-question-writer",
+   "subject": "Biology",
+   "task": "Write me an exam-style question on enzymes for AQA GCSE Biology (combined science, foundation tier), about 8 marks in total, with a mark scheme. My students struggle with 'explain' questions.",
+   "criteria": [
+    "The question is split into parts with rising difficulty and the marks shown for each part, totalling about 8",
+    "Command words are used correctly and the marks match the demand (for example 'explain' parts need linked reasons)",
+    "The mark scheme gives separate creditable points, one per mark, in examiner style",
+    "The mark scheme includes alternative acceptable answers and/or answers that should not be credited",
+    "There is a model full-mark answer or clear guidance students can learn from, relevant to 'explain' questions",
+    "The biology is correct and appropriate for foundation tier GCSE (active site, temperature, pH, denaturing)"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1151
+   },
+   "without": {
+    "criteria": [
+     1,
+     1.5,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 10.5,
+    "max": 12,
+    "words": 937
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer builds a clear give-describe-explain-explain ladder with two linked-chain explain parts and a full-mark model answer for every part, which better serves students who struggle with 'explain', whereas the plain answer drops back to an easy 1-mark item after its 4-mark explain.",
+    "The skill answer builds a clear give-describe-explain-explain ladder with two linked-reason explain parts and full model answers, whereas the plain answer ends with an easy 1-mark part after the 4-mark explain and its mark scheme credits simply restating 'too alkaline', which its own notes call a common error."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "parent-message",
+   "skill": "parent-message",
+   "subject": "Maths",
+   "task": "Write a WhatsApp message to a parent. Their son (Year 10, call him [child]) has dropped from grade 6 to grade 4 in the last two maths assessments and hasn't handed in the last three homeworks. I run a catch-up session on Tuesdays 3:30 to 4:15 and I'd like him to come for the next four weeks. I don't want to alarm them but I do need them to act.\n\nFormat: put the message itself between two lines that contain only ===.",
+   "criteria": [
+    "It is short enough to read on a phone in a few seconds (roughly under 100 words)",
+    "It states the facts plainly (grades and missed homework) without blame or a list of faults",
+    "It has exactly one clear action for the parent, with the day and time, and an easy way to respond",
+    "It makes clear who does what (what the child will do, what the parent is asked to do)",
+    "The tone is warm and calm, opening with something positive or the shared aim, without gushing",
+    "No school jargon or internal names; a parent with no knowledge of the school's systems would understand it"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2
+    ],
+    "total": 11,
+    "max": 12,
+    "words": 165,
+    "auto": {
+     "name": "Message is under 100 words",
+     "pass": true,
+     "detail": "74 words"
+    }
+   },
+   "without": {
+    "criteria": [
+     0,
+     2,
+     1,
+     2,
+     2,
+     2
+    ],
+    "total": 9,
+    "max": 12,
+    "words": 207,
+    "auto": {
+     "name": "Message is under 100 words",
+     "pass": false,
+     "detail": "170 words"
+    }
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is phone-length with one clear YES-by-a-date action, while the plain answer is roughly 180 words and asks the parent for several things at once.",
+    "The skill answer is about 70 words with a single 'reply YES' action, while the plain answer runs to about 150 words and asks the parent to do two or three different things."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "explanation",
+   "skill": "explanation-crafter",
+   "subject": "Science",
+   "task": "Explain to my Year 7 class (age 11 to 12) why we have seasons. Lots of them think it's because the Earth is closer to the sun in summer.",
+   "criteria": [
+    "It tackles the 'closer to the sun' misconception directly, with a reason it can't be right (for example opposite seasons in the two hemispheres)",
+    "It starts from something students already know or can picture before introducing the tilt",
+    "It uses a concrete example, model or demonstration (torch, globe, or similar) before abstract statements",
+    "The language suits 11 to 12 year olds: short sentences, key terms explained",
+    "It includes questions to check understanding along the way, not just at the end",
+    "The science is correct (axial tilt, angle and spread of sunlight, day length)"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1466
+   },
+   "without": {
+    "criteria": [
+     2,
+     1.5,
+     1,
+     2,
+     1,
+     2
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 1219
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is a ready-to-deliver script that starts from students' own idea, uses the torch before the tilt and checks understanding at every step, whereas the plain answer states the tilt first and leaves most questions to the end.",
+    "The skill answer puts the torch demonstration before the abstract tilt idea and checks understanding at every step, whereas the plain answer explains the tilt first and saves most of its questions for the end."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "class-feedback",
+   "skill": "whole-class-feedback",
+   "subject": "English",
+   "task": "I've just read 28 Year 10 essays on how Priestley presents Mr Birling in An Inspector Calls. My notes: most have good knowledge of the plot. Lots retell the story instead of analysing. About half used quotes but didn't comment on language. Almost nobody mentioned context (1912 vs 1945). Several strong ones linked Birling to capitalism. Common spellings wrong: Priestley, capitalism, responsibility. Paragraphs often too long. I don't have time to write on every essay. What do I give back to the class?",
+   "criteria": [
+    "It produces a single whole-class feedback sheet rather than individual comments",
+    "It names specific strengths from the notes, not generic praise",
+    "It lists the main common errors, each with how to fix it (retelling vs analysis, quotes without language comment, missing context)",
+    "It includes a model or example showing what good analysis looks like for this essay",
+    "It gives students a concrete improvement task to do in lesson time (not just things to read)",
+    "It saves the teacher time (for example error codes) and the literature content is accurate"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1.5
+    ],
+    "total": 11.5,
+    "max": 12,
+    "words": 980
+   },
+   "without": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 914
+   },
+   "preferences": [
+    "without",
+    "with"
+   ],
+   "reasons": [
+    "The plain answer gives accurate, well-chosen quotations ('unsinkable', 'fiddlesticks') in its examples and a ready-made lesson around the redraft, while the skill answer's model paragraph relies on a misquoted line it asks the teacher to check, though the skill answer's A-D codes are slightly quicker to apply.",
+    "Both are accurate and complete, but the skill answer's A-to-D letter codes let the teacher target each essay in about five minutes and send each student straight to a matching rewrite task."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "homework",
+   "skill": "homework-designer",
+   "subject": "French",
+   "task": "Set this week's homework for my Year 8 French class. We've just finished the perfect tense with avoir. Earlier this term we did family vocabulary and opinions (j'aime, je déteste, parce que). Lots of parents tell me they can't help because they don't speak French.",
+   "criteria": [
+    "The homework is short with a stated time expectation (roughly 15 to 30 minutes)",
+    "It includes practice of earlier material (family vocabulary, opinions) as well as the perfect tense",
+    "It requires students to recall or produce language, not just copy or re-read",
+    "A parent with no French does not need to teach or check the content; any parent role is something they can actually do",
+    "It is quick for the teacher to check, and answers or a marking approach are provided",
+    "The French is correct and suitable for Year 8"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 791
+   },
+   "without": {
+    "criteria": [
+     1,
+     2,
+     2,
+     1,
+     1.5,
+     2
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 1179
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer is genuinely 25 minutes, mixes old and new content cleanly, and gives parents a role they can actually do, whereas the plain answer's five tasks are long for 30 minutes and its letter asks non-French-speaking parents to check answers while also telling them not to correct the French.",
+    "The skill answer is a genuinely short 25-minute task with a quick key and a parent role that needs no French, whereas the plain answer runs to 27 marks plus extended writing and asks non-French-speaking parents to check answers against a key."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "tutoring",
+   "skill": "tutoring-session-planner",
+   "subject": "Chemistry",
+   "task": "I tutor a Year 10 student one to one online, GCSE chemistry, an hour a week. Last week we did ionic bonding; in the end-of-session check she got the dot-and-cross diagram for NaCl right but couldn't explain why ionic compounds have high melting points, and said she was 'guessing' on formulae like MgCl2. Homework was 6 questions on ionic formulae. School are starting covalent bonding next week. Plan this week's session.",
+   "criteria": [
+    "It starts with retrieval of what she got wrong last week (melting points, formulae), not a re-explanation",
+    "It reviews the homework and uses it as evidence of what to do next",
+    "The new teaching targets one clear focus, with modelling before she tries it",
+    "There is guided practice followed by independent practice, with the tutor watching method not just answers",
+    "It ends with a short check of what stuck and sets short homework she can do alone",
+    "It includes a brief note for the student and/or parent, and the chemistry is correct"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 2439
+   },
+   "without": {
+    "criteria": [
+     1,
+     1.5,
+     0.5,
+     2,
+     2,
+     1
+    ],
+    "total": 8.0,
+    "max": 12,
+    "words": 1895
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer opens by retrieving exactly last week's gaps, teaches one modelled focus with guided then independent practice, and includes student and parent notes, while the plain answer re-teaches in the homework slot, splits across three foci and has no note for student or parent.",
+    "The skill answer opens by retrieving exactly last week's gaps, keeps one teaching focus with modelling before practice, and includes student and parent notes, while the plain answer re-teaches two topics plus a covalent bridge and has no note for student or parent."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "knowledge-organiser",
+   "skill": "knowledge-organiser",
+   "subject": "History",
+   "task": "Make a knowledge organiser for my Year 7 unit on the Norman Conquest (1066: the claimants, Stamford Bridge, Hastings, how William kept control: castles, feudal system, Domesday Book).",
+   "criteria": [
+    "It would fit on one page: selective, not an essay",
+    "Key vocabulary is listed with short, student-friendly definitions",
+    "There is a clear timeline or sequence of the key events with correct dates",
+    "Facts are chunked into sections a student can self-test on (for example cover and recall)",
+    "It tells students how to use it to test themselves, or includes quiz questions",
+    "The history is accurate (claimants, battles, dates, methods of control)"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 1211
+   },
+   "without": {
+    "criteria": [
+     0,
+     2,
+     2,
+     1.5,
+     2,
+     2
+    ],
+    "total": 9.5,
+    "max": 12,
+    "words": 1586
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "Both are accurate, but the skill answer is a true one-page organiser with numbered chunks, a blank self-quiz version and clear cover-and-recall instructions, while the plain answer runs to an essay-length document that would not fit on one page.",
+    "The skill answer is a tight, numbered one-page organiser with a blank cover-and-recall version and quiz, whereas the plain answer is accurate but far too long to be a one-page organiser."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  },
+  {
+   "id": "scheme-of-work",
+   "skill": "scheme-of-work-builder",
+   "subject": "Computing",
+   "task": "Plan a half-term (6 weeks, 2 lessons a week, 50 minutes each) for Year 8 computing on Python programming basics. They did Scratch in Year 7 and have never typed code. There's an assessment in the last week.",
+   "criteria": [
+    "All 12 lessons are listed in a sensible order where each builds on the last (for example output, variables, input, selection, iteration)",
+    "Each lesson has a clear objective and a main activity",
+    "It builds in retrieval of earlier lessons throughout, not just new content every lesson",
+    "It includes checkpoints before the final assessment so gaps are found early",
+    "It has a balance of reading or modifying code and writing code from scratch, suitable for beginners moving on from Scratch",
+    "The pace is realistic for Year 8 beginners in 50-minute lessons, and the final assessment matches what was taught"
+   ],
+   "with": {
+    "criteria": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "total": 12,
+    "max": 12,
+    "words": 2020
+   },
+   "without": {
+    "criteria": [
+     2,
+     1.5,
+     1,
+     1,
+     2,
+     1
+    ],
+    "total": 8.5,
+    "max": 12,
+    "words": 2145
+   },
+   "preferences": [
+    "with",
+    "with"
+   ],
+   "reasons": [
+    "The skill answer builds retrieval into every starter, has two mid-unit checks plus a flex reteach lesson and keeps a realistic beginner pace, while the plain answer has no checkpoint before the final week and crams strings, f-strings, logical operators and while loops into a fast sequence.",
+    "The skill answer builds named retrieval into every starter, adds two mid-unit checks and flex lessons, and keeps a realistic pace whose assessment matches what was taught, while the plain answer crams more content and only checks for gaps in the final week."
+   ],
+   "graders": 2,
+   "graders_close": 1
+  }
+ ]
+}

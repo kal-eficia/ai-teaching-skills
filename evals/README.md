@@ -37,6 +37,21 @@ Run it yourself: `python3 evals/prepare.py WORKDIR`, run each prompt in `WORKDIR
 - **The baseline may have been helped.** Both arms ran inside the author's workspace, which carries his house style. That would shrink the gap, not grow it.
 - **Sonnet only.** Other models may differ.
 
-## What changed because of this
+## What changed because of this, and the re-test
 
-Eight skills were tightened after reading the graders' notes: exam-question-writer, tutoring-session-planner, parent-message, explanation-crafter, knowledge-organiser, scheme-of-work-builder, homework-designer and whole-class-feedback. Those fixes have not been re-tested yet.
+Eight skills were tightened after reading the graders' notes. Each was then re-tested the same day: fresh answers from both arms, new random labels, two new blind graders. Scores are skill v plain, out of 12.
+
+| Skill | First run | Re-test | Graders preferred skill |
+|---|---|---|---|
+| exam-question-writer | 11 v 12 | 12 v 10.5 | 2 of 2 |
+| parent-message | 10.5 v 9 | 11 v 9 | 2 of 2 |
+| explanation-crafter | 11 v 10 | 12 v 9.5 | 2 of 2 |
+| whole-class-feedback | 11.5 v 10 | 11.5 v 12 | 1 of 2 |
+| homework-designer | 11.5 v 11 | 12 v 9.5 | 2 of 2 |
+| tutoring-session-planner | 9.5 v 7.5 | 12 v 8 | 2 of 2 |
+| knowledge-organiser | 11 v 9.5 | 12 v 9.5 | 2 of 2 |
+| scheme-of-work-builder | 11 v 10 | 12 v 8.5 | 2 of 2 |
+
+Across the re-test: 98.4% of criteria met with the skill against 79.7% without, and 15 of 16 blind judgements for the skill answer. The exam-question skill, the one loss in the first run, now wins. whole-class-feedback is the one that came out level or just behind: its model paragraph used a quotation it wasn't sure of.
+
+The same limits apply, and a re-test is still one run per task. Answers are in [retest-outputs/](retest-outputs/) and grading files in [retest-grades/](retest-grades/). In the re-test, both arms were told not to mention any files or rules, so no answers needed editing before grading.

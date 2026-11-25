@@ -83,6 +83,8 @@ for f in sorted((work / "grades").glob("batch*.json")):
 
 results, missing = [], []
 for c in cases:
+    if c["id"] not in mapping:
+        continue
     m = mapping[c["id"]]
     arms = {"with": m["with_skill"], "without": m["without_skill"]}
     texts = {}
@@ -139,6 +141,21 @@ for r in sorted(results, key=lambda r: r["with"]["total"] - r["without"]["total"
           + (f"   auto: with={a['pass']} without={r['without']['auto']['pass']}" if a else ""))
 if missing:
     print("not scored yet:", missing)
+
+if "--publish-retest" in sys.argv:
+    out = ROOT / "evals"
+    pub = out / "retest-outputs"
+    if pub.exists():
+        shutil.rmtree(pub)
+    for r in results:
+        m = mapping[r["id"]]
+        d = pub / r["id"]
+        d.mkdir(parents=True)
+        src = work / "runs_original" if (work / "runs_original").exists() else work / "runs"
+        shutil.copy(src / r["id"] / f"{m['with_skill']}.md", d / "with-skill.md")
+        shutil.copy(src / r["id"] / f"{m['without_skill']}.md", d / "without-skill.md")
+    (out / "retest.json").write_text(json.dumps({"summary": summary, "cases": results}, indent=1, ensure_ascii=False), encoding="utf-8")
+    print("retest published to", out)
 
 if "--publish" in sys.argv:
     out = ROOT / "evals"

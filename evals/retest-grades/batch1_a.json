@@ -1,0 +1,6 @@
+{"grader": "1a", "cases": [
+{"id": "exam-question", "x": [1, 2, 2, 2, 2, 2], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Y builds a clear give-describe-explain-explain ladder with two linked-chain explain parts and a full-mark model answer for every part, which better serves students who struggle with 'explain', whereas X drops back to an easy 1-mark item after its 4-mark explain."},
+{"id": "parent-message", "x": [2, 2, 2, 1, 2, 2], "y": [0, 2, 1, 2, 2, 2], "prefer": "x", "reason": "X is phone-length with one clear YES-by-a-date action, while Y is roughly 180 words and asks the parent for several things at once."},
+{"id": "explanation", "x": [2, 2, 2, 2, 2, 2], "y": [2, 1, 1, 2, 1, 2], "prefer": "x", "reason": "X is a ready-to-deliver script that starts from students' own idea, uses the torch before the tilt and checks understanding at every step, whereas Y states the tilt first and leaves most questions to the end."},
+{"id": "class-feedback", "x": [2, 2, 2, 2, 2, 1], "y": [2, 2, 2, 2, 2, 2], "prefer": "y", "reason": "Y gives accurate, well-chosen quotations ('unsinkable', 'fiddlesticks') in its examples and a ready-made lesson around the redraft, while X's model paragraph relies on a misquoted line it asks the teacher to check, though X's A-D codes are slightly quicker to apply."}
+]}

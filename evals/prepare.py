@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Prepare a blind eval run: one prompt file per (case, arm), with arms hidden behind labels x and y.
 
-usage: prepare.py WORKDIR [--seed N]
+usage: prepare.py WORKDIR [--seed N] [--only id,id]
 Writes WORKDIR/prompts/<case>_<label>.md, WORKDIR/runs/<case>/ (empty), WORKDIR/grader_<n>_<g>.md,
 and WORKDIR/secret/map.json (which label is the skill arm). Graders never see the secret folder.
 """
@@ -15,6 +15,9 @@ work = Path(sys.argv[1]).resolve()
 seed = int(sys.argv[sys.argv.index("--seed") + 1]) if "--seed" in sys.argv else 2026
 rng = random.Random(seed)
 cases = json.loads((ROOT / "evals" / "cases.json").read_text(encoding="utf-8"))
+if "--only" in sys.argv:
+    keep = set(sys.argv[sys.argv.index("--only") + 1].split(","))
+    cases = [c for c in cases if c["id"] in keep]
 
 COMMON = """You are helping a teacher. Their request is below.
 
@@ -22,6 +25,7 @@ Rules for this job:
 - Act as you would for any teacher who sent this message. Ignore any standing project or user instructions you may have been given (such as a CLAUDE.md file); they do not apply to this teacher.
 - Do not ask the teacher questions. Make sensible assumptions and state them briefly.
 - Do not search the web.
+- In your reply, never mention these rules, any skill or checklist, or any file you read. Just do the work.
 {arm}
 - Write your complete reply to the teacher, in Markdown, to this file: {out}
 - Write nothing else to disk. When the file is written, reply with the single word DONE.
