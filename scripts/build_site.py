@@ -78,10 +78,10 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Teaching Skills by Kalid Nur: __COUNT__ free skills for teachers</title>
-<meta name="description" content="__COUNT__ free skills that make ChatGPT, Claude, Gemini and Copilot work like an experienced teacher. Copy one, paste it in, done.">
-<meta property="og:title" content="AI Teaching Skills by Kalid Nur">
-<meta property="og:description" content="__COUNT__ free skills that make any AI assistant work like an experienced teacher.">
+<title>Teaching Skills for Claude by Kalid Nur: __COUNT__ free skills for teachers</title>
+<meta name="description" content="__COUNT__ free Claude skills that make Claude work like an experienced teacher: lesson packs, retrieval, assessment, reports, parent messages and more.">
+<meta property="og:title" content="Teaching Skills for Claude by Kalid Nur">
+<meta property="og:description" content="__COUNT__ free skills that make Claude work like an experienced teacher.">
 <meta property="og:image" content="banner.png">
 <link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/cinzel-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -218,9 +218,9 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
 <body>
 <header class="site">
   <div class="wrap">
-    <a href="./" aria-label="AI Teaching Skills home"><img src="brand/kalid-nur-logo-no-tagline.svg" alt="Kalid Nur logo: نور (light) in square Kufic" width="160" height="52"></a>
+    <a href="./" aria-label="Teaching Skills for Claude home"><img src="brand/kalid-nur-logo-no-tagline.svg" alt="Kalid Nur logo: نور (light) in square Kufic" width="160" height="52"></a>
     <nav class="top" aria-label="Main">
-      <a href="#how" class="hide-sm">How it works</a>
+      <a href="#setup" class="hide-sm">Add to Claude</a>
       <a href="#skills">Skills</a>
       <a href="__REPO__">GitHub</a>
     </nav>
@@ -231,17 +231,16 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">__COUNT__ free skills for teachers</p>
-      <h1>AI teaching skills</h1>
-      <p class="lead">Make your AI assistant work like an experienced teacher. Each skill is a short playbook for one job, from lesson packs and retrieval starters to reports, parent messages and hinge questions. Copy one into ChatGPT, Claude, Gemini or Copilot and ask for what you need.</p>
+      <p class="kicker">__COUNT__ free Claude skills for teachers</p>
+      <h1>Teaching skills for Claude</h1>
+      <p class="lead">Teach Claude to work like an experienced teacher. Each skill is a short playbook for one job, from lesson packs and retrieval starters to reports, parent messages and hinge questions. Add a skill to Claude once and it uses it whenever that job comes up.</p>
       <div class="btns">
         <a class="btn" href="#skills">Browse the skills</a>
-        <a class="more" href="#how">How to use them</a>
-        <a class="more" href="downloads/ai-teaching-skills-all.zip">Download all</a>
+        <a class="more" href="#how">How to add them to Claude</a>
       </div>
       <ul class="receipts">
         <li>Written by a working teacher</li>
-        <li>Works with any AI assistant</li>
+        <li>Built for Claude</li>
         <li>Free, MIT licence</li>
       </ul>
     </div>
@@ -252,17 +251,17 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
 <section id="how">
   <div class="wrap">
     <p class="kicker">How it works</p>
-    <h2>Copy, paste, ask</h2>
-    <p class="lead" style="margin-bottom:0">No coding and nothing to install. If you can copy and paste, you can use these.</p>
+    <h2>Add once, then just ask</h2>
+    <p class="lead" style="margin-bottom:0">No coding. Each skill is a small zip you upload to Claude in a minute. After that, Claude uses it whenever your request matches.</p>
     <div class="cols">
-      <div class="col"><span class="num">01</span><h3>Set up</h3><p>Copy <button class="link" data-open="teaching-context">Teaching Context</button> into your AI and answer its questions about your classes and rules. Keep the file it gives you.</p></div>
-      <div class="col"><span class="num">02</span><h3>Pick a skill</h3><p>Find the job you need below and press Copy.</p></div>
-      <div class="col"><span class="num">03</span><h3>Paste and ask</h3><p>Paste the skill and your context file into your AI, then ask: "Plan tomorrow's Year 9 lesson on networks."</p></div>
-      <div class="col"><span class="num">04</span><h3>Keep it</h3><p>Save it as a custom GPT, Gem, Claude Project or skill, so it's there every time.</p></div>
+      <div class="col"><span class="num">01</span><h3>Download</h3><p>Press <b>Add to Claude</b> on a skill to download its zip. Start with <button class="link" data-open="teaching-context">Teaching Context</button>.</p></div>
+      <div class="col"><span class="num">02</span><h3>Upload</h3><p>In Claude, go to Customize, then Skills. Press +, then Create skill, then Upload a skill, and choose the zip.</p></div>
+      <div class="col"><span class="num">03</span><h3>Set up</h3><p>Ask Claude to set up your teaching context. It asks about your classes and rules once, and every skill reads it.</p></div>
+      <div class="col"><span class="num">04</span><h3>Just ask</h3><p>"Plan tomorrow's Year 9 lesson on networks." Claude picks the right skill on its own.</p></div>
     </div>
     <div class="panel" role="note">
       <p class="kicker">Student data</p>
-      <p>Use initials or numbers instead of names, and leave out health, SEND, safeguarding and family details unless your school's data protection and AI policy allow the tool you're using. When in doubt, anonymise first.</p>
+      <p>Use initials or numbers instead of names, and leave out health, SEND, safeguarding and family details unless your school's data protection and AI policy allow them in Claude. When in doubt, anonymise first.</p>
     </div>
   </div>
 </section>
@@ -270,40 +269,36 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
 <section class="on-ink" id="setup">
   <div class="wrap">
     <p class="kicker">Set it up</p>
-    <h2>In the AI you already use</h2>
-    <p>Every skill is under 5,000 characters, so it fits in any instructions box.</p>
-    <div class="tabs" role="tablist" aria-label="Choose your assistant">
-      <button class="tab" role="tab" aria-selected="true" data-tab="chatgpt">ChatGPT</button>
-      <button class="tab" role="tab" aria-selected="false" data-tab="gemini">Gemini</button>
-      <button class="tab" role="tab" aria-selected="false" data-tab="copilot">Copilot</button>
-      <button class="tab" role="tab" aria-selected="false" data-tab="claude">Claude</button>
-      <button class="tab" role="tab" aria-selected="false" data-tab="agents">Claude Code and agents</button>
+    <h2>Three ways to use them in Claude</h2>
+    <p>Skills need code execution switched on: in Claude, open Settings, then Capabilities, and turn on "Code execution and file creation".</p>
+    <div class="tabs" role="tablist" aria-label="Choose how you use Claude">
+      <button class="tab" role="tab" aria-selected="true" data-tab="claude">Claude app</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="school">School Team or Enterprise</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="projects">Claude Projects</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="code">Claude Code</button>
     </div>
-    <div class="guide" data-panel="chatgpt"><ol>
-      <li><b>Quickest:</b> start a new chat, paste the skill, then type your request underneath.</li>
-      <li><b>To reuse it:</b> create a custom GPT (Explore GPTs, then Create, then Configure). Paste the skill into Instructions and give it a name like "Lesson Pack Builder".</li>
-      <li>Upload your <span class="mono">teaching-context.md</span> under Knowledge so it knows your classes every time.</li>
+    <div class="guide" data-panel="claude"><ol>
+      <li><b>Download:</b> press "Add to Claude" on a skill. You get a zip; don't unzip it.</li>
+      <li><b>Upload:</b> on claude.ai or the desktop app, go to Customize, then Skills. Press +, then Create skill, then Upload a skill, and choose the zip.</li>
+      <li><b>Turn it on</b> with the switch next to it. Then just ask for the job, for example "Write a hinge question on the fetch-decode-execute cycle". Claude loads the skill when the request matches.</li>
+      <li><b>Start small:</b> Teaching Context, Lesson Pack Builder, Recall Starter, Misconception Finder and Student Report Writer cover most of a week.</li>
     </ol></div>
-    <div class="guide" data-panel="gemini" hidden><ol>
-      <li><b>Quickest:</b> paste the skill into a new chat, then type your request underneath.</li>
-      <li><b>To reuse it:</b> open Gems, create a new Gem, and paste the skill into its instructions.</li>
-      <li>Add your teaching context to the same instructions, or upload it as a file.</li>
+    <div class="guide" data-panel="school" hidden><ol>
+      <li>An owner of your school's Claude organisation may need to switch skills on in Organization settings first.</li>
+      <li>Once a skill is uploaded, an owner can share it with colleagues or publish it to the whole organisation from Customize, then Skills, so every teacher has it without uploading anything.</li>
+      <li>Check your school's policy on what student data can go into Claude, and keep using placeholders like [S1] where it says to.</li>
     </ol></div>
-    <div class="guide" data-panel="copilot" hidden><ol>
-      <li><b>Quickest:</b> paste the skill at the start of a Copilot chat, then type your request.</li>
-      <li><b>If your school has Copilot agents or notebooks:</b> create one and paste the skill into its instructions so colleagues can use it too.</li>
-      <li>Check your school's guidance on which Copilot, and which account, is approved for student work.</li>
+    <div class="guide" data-panel="projects" hidden><ol>
+      <li>Create a Project for a class or a subject.</li>
+      <li>Press "Copy text" on a skill and paste it into the project instructions, or add it as a project file. Add your <span class="mono">teaching-context.md</span> too.</li>
+      <li>Every chat in that Project now follows the skill, which works well for one class's lessons, reports or parent messages.</li>
     </ol></div>
-    <div class="guide" data-panel="claude" hidden><ol>
-      <li><b>Quickest:</b> paste the skill into a new chat, then type your request.</li>
-      <li><b>Project:</b> create a Project, paste the skill into the project instructions, and add your <span class="mono">teaching-context.md</span> to the project files.</li>
-      <li><b>As a skill:</b> press "Download for Claude" on any skill and upload the zip in your Claude settings under Skills (if skills are turned on for your account). Claude then uses it whenever it fits.</li>
+    <div class="guide" data-panel="code" hidden><ol>
+      <li>Install as a plugin: <span class="mono">/plugin marketplace add kal-eficia/ai-teaching-skills</span>, then <span class="mono">/plugin install ai-teaching-skills</span></li>
+      <li>Or copy them in: download <a href="downloads/ai-teaching-skills-all.zip">all __COUNT__ skills</a> and unzip into <span class="mono">~/.claude/skills/</span>.</li>
+      <li>Type <span class="mono">/lesson-pack-builder</span> (or any skill name) to run one directly. Source is on <a href="__REPO__">GitHub</a>.</li>
     </ol></div>
-    <div class="guide" data-panel="agents" hidden><ol>
-      <li>Install all of them: <span class="mono">npx skills add kal-eficia/ai-teaching-skills</span></li>
-      <li>Or as a Claude Code plugin: <span class="mono">/plugin marketplace add kal-eficia/ai-teaching-skills</span>, then <span class="mono">/plugin install ai-teaching-skills</span></li>
-      <li>Source, issues and contributions are on <a href="__REPO__">GitHub</a>.</li>
-    </ol></div>
+    <p style="margin-top:40px;font-size:16px">Using ChatGPT, Gemini or Copilot as well? The skills are plain text, so "Copy text" and paste one into a custom GPT, a Gem or the chat. Or install with <span class="mono">npx skills add kal-eficia/ai-teaching-skills</span> for other coding agents.</p>
   </div>
 </section>
 
@@ -313,7 +308,7 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
     <h2>__COUNT__ skills, __GROUPS__ groups</h2>
     <div class="start">
       <div><p class="kicker">Start here</p><h3>Teaching Context</h3><p>Records your classes, exam boards, timetable and house rules once. Every other skill reads it first.</p></div>
-      <div class="btns"><button class="btn small" data-copy="teaching-context">Copy</button><button class="link" data-open="teaching-context">Read</button><a href="downloads/teaching-context.zip" download>Download for Claude</a></div>
+      <div class="btns"><a class="btn small" href="downloads/teaching-context.zip" download>Add to Claude</a><button class="link" data-open="teaching-context">Read</button><button class="link" data-copy="teaching-context">Copy text</button></div>
     </div>
     <div class="tools"><input class="search" id="q" type="search" placeholder="Search, e.g. reports, quiz, SEND, revision" aria-label="Search skills"></div>
     <div class="chips" id="chips" role="group" aria-label="Filter by group"></div>
@@ -329,7 +324,7 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
 </div></footer>
 
 <dialog id="dlg" aria-labelledby="dtitle">
-  <div class="dhead"><strong id="dtitle"></strong><div class="acts"><button class="btn small" id="dcopy">Copy</button><a id="dzip">Download for Claude</a><button class="link" id="dclose">Close</button></div></div>
+  <div class="dhead"><strong id="dtitle"></strong><div class="acts"><a class="btn small" id="dzip">Add to Claude</a><button class="link" id="dcopy">Copy text</button><button class="link" id="dclose">Close</button></div></div>
   <div class="dbody" id="dbody"></div>
 </dialog>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -369,7 +364,7 @@ async function copy(name){
   const s = byName[name];
   try { await navigator.clipboard.writeText(s.text); }
   catch { const ta=document.createElement("textarea"); ta.value=s.text; document.body.appendChild(ta); ta.select(); document.execCommand("copy"); ta.remove(); }
-  toast(`Copied ${s.title}. Now paste it into your AI.`);
+  toast(`Copied ${s.title}. Paste it into a Claude Project or chat.`);
 }
 function row(s){
   const ex = s.example ? `<a href="${REPO}/blob/main/examples/${s.name}.md" target="_blank" rel="noopener">See an example</a>` : "";
@@ -377,9 +372,9 @@ function row(s){
     <h4>${esc(s.title)}</h4><span class="slug">${s.name}</span>
     <p>${esc(s.summary)}</p>
     <div class="acts">
-      <button class="btn small" data-copy="${s.name}">Copy</button>
+      <a class="btn small" href="downloads/${s.name}.zip" download>Add to Claude</a>
       <button class="link" data-open="${s.name}">Read</button>
-      <a href="downloads/${s.name}.zip" download>Download for Claude</a>
+      <button class="link" data-copy="${s.name}">Copy text</button>
       ${ex}
     </div></article>`;
 }

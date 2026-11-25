@@ -26,12 +26,12 @@ For **sort tasks**, do the same with the bucket each item belongs to, in the ord
 
 ## How to check (do it with code, not by eye)
 
-Run the bundled checker on the quiz JSON:
+Run the bundled checker on the quiz JSON. In Claude Code, `${CLAUDE_SKILL_DIR}` is this skill's folder; in the Claude app, the script is at `scripts/check_key.py` next to this file.
 
 ```bash
-python3 scripts/check_key.py quiz.json          # report
-python3 scripts/check_key.py quiz.json --fix     # rewrite option order safely
-python3 scripts/check_key.py --key CADBDACB      # check a bare key
+python3 ${CLAUDE_SKILL_DIR}/scripts/check_key.py quiz.json          # report
+python3 ${CLAUDE_SKILL_DIR}/scripts/check_key.py quiz.json --fix     # rewrite option order safely
+python3 ${CLAUDE_SKILL_DIR}/scripts/check_key.py --key CADBDACB      # check a bare key
 ```
 
 Quiz JSON is a list of `{"q", "options", "answer"}` (answer as index or option text) and optional `{"type": "sort", "items": [{"text", "bucket"}]}`. If your quiz lives in HTML, extract the questions to this shape first.
