@@ -39,6 +39,8 @@ These skills fix that. Each one is a short, opinionated Claude skill that tells 
 
 [See every result](https://kal-eficia.github.io/ai-teaching-skills/results.html), or read the [method, limits and all 48 answers](evals/).
 
+The library is also an entrant on [TeachBench](https://github.com/kal-eficia/teachbench), an open benchmark of 72 teaching tasks graded blind. In run 1, Claude Sonnet with these skills scored **95.6**, against **82.7** for plain Sonnet, and Claude Haiku with the skills drew level with plain Sonnet. [See the leaderboard](https://kal-eficia.github.io/teachbench/).
+
 ## Add them to Claude
 
 **The easy way: [kal-eficia.github.io/ai-teaching-skills](https://kal-eficia.github.io/ai-teaching-skills/)** has an **Add to Claude** button on every skill, plus step-by-step set-up. No GitHub or terminal needed.
