@@ -2,9 +2,22 @@
   "name": "ai-teaching-skills",
   "version": "1.1.0",
   "description": "56 Claude skills for teachers, tutors and school leaders: planning, retrieval, assessment, feedback, inclusion, pastoral, parents and AI in the classroom.",
-  "author": { "name": "Kalid Nur", "url": "https://github.com/kal-eficia" },
+  "author": {
+    "name": "Kalid Nur",
+    "url": "https://github.com/kal-eficia"
+  },
   "homepage": "https://github.com/kal-eficia/ai-teaching-skills",
   "repository": "https://github.com/kal-eficia/ai-teaching-skills",
   "license": "MIT",
-  "keywords": ["teaching", "education", "lesson-planning", "assessment", "retrieval-practice", "tutoring", "skills"]
+  "keywords": [
+    "teaching",
+    "education",
+    "lesson-planning",
+    "assessment",
+    "retrieval-practice",
+    "tutoring",
+    "skills"
+  ],
+  "documentationUrl": "https://kal-eficia.github.io/ai-teaching-skills/",
+  "supportUrl": "https://github.com/kal-eficia/ai-teaching-skills/issues"
 }
