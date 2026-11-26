@@ -1,0 +1,47 @@
+name: release
+
+# Push a tag like v1.2.0 to publish a release. Every skill is attached as its own zip,
+# plus one zip of the whole library, so GitHub counts each download.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag to release (must already exist)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Check the skills
+        run: python scripts/validate_skills.py --require-context
+      - name: Build the zips
+        run: python scripts/build_site.py
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag || github.ref_name }}
+        run: |
+          n=$(ls _site/downloads/*.zip | wc -l)
+          cat > notes.md <<'NOTES'
+          COUNT downloads: every skill as its own zip, plus `ai-teaching-skills-all.zip` with the whole library.
+
+          **Add a skill to Claude:** download its zip (don't unzip it). In Claude, go to Customize, then Skills, press +, then Create skill, then Upload a skill, and choose the zip. Start with `teaching-context.zip`.
+
+          **Claude Code plugin:** `/plugin install ai-teaching-skills --marketplace kal-eficia/ai-teaching-skills`
+
+          Browse and read every skill first at https://kal-eficia.github.io/ai-teaching-skills/
+          NOTES
+          sed -i "s/^COUNT/${n}/" notes.md
+          gh release create "$TAG" _site/downloads/*.zip --title "AI Teaching Skills $TAG" --notes-file notes.md
