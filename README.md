@@ -32,6 +32,8 @@ The library is also an entrant on [TeachBench](https://github.com/kal-eficia/tea
 
 **The easy way: [kal-eficia.github.io/ai-teaching-skills](https://kal-eficia.github.io/ai-teaching-skills/)** has an **Add to Claude** button on every skill, plus step-by-step set-up. No GitHub or terminal needed.
 
+Every skill is also attached as its own zip to the [latest release](https://github.com/kal-eficia/ai-teaching-skills/releases/latest), with the whole library in `ai-teaching-skills-all.zip`.
+
 **Claude app (claude.ai and desktop)**
 
 1. Make sure *Code execution and file creation* is on in Settings, then Capabilities.
@@ -247,7 +249,7 @@ The skills are written for Claude, but they're plain Markdown. Other coding agen
 
 Teachers: if a skill gets something wrong for your subject, country or age group, open an issue with an example. That's the most useful contribution there is.
 
-New skills are welcome. Each lives in `skills/<name>/SKILL.md`, the `name` in its frontmatter matches the folder, the description says when to use it (under 1,024 characters), and it reads `teaching-context.md` first. `python3 scripts/validate_skills.py` checks all of that, and CI runs it on every push. To measure whether a change makes Claude's output better, run it through Anthropic's skill-creator skill.
+New skills are welcome. Each lives in `skills/<name>/SKILL.md`, the `name` in its frontmatter matches the folder, the description says when to use it (under 1,024 characters), and it reads `teaching-context.md` first. `python3 scripts/validate_skills.py` checks all of that, and CI runs it on every push. To measure whether a change makes Claude's output better, run it through Anthropic's skill-creator skill. The site's download buttons point at the latest release, so after adding or changing a skill, run the **release** workflow from the Actions tab with a new version number.
 
 ---
 

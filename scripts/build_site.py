@@ -317,7 +317,7 @@ dialog::backdrop{background:rgba(22,20,15,.7)}
     <h2>__COUNT__ skills, __GROUPS__ groups</h2>
     <div class="start">
       <div><p class="kicker">Start here</p><h3>Teaching Context</h3><p>Records your classes, exam boards, timetable and house rules once. Every other skill reads it first.</p></div>
-      <div class="btns"><a class="btn small" href="downloads/teaching-context.zip" download>Add to Claude</a><button class="link" data-open="teaching-context">Read</button><button class="link" data-copy="teaching-context">Copy text</button></div>
+      <div class="btns"><a class="btn small" href="https://github.com/kal-eficia/ai-teaching-skills/releases/latest/download/teaching-context.zip">Add to Claude</a><button class="link" data-open="teaching-context">Read</button><button class="link" data-copy="teaching-context">Copy text</button></div>
     </div>
     <div class="tools"><input class="search" id="q" type="search" placeholder="Search, e.g. reports, quiz, SEND, revision" aria-label="Search skills"></div>
     <div class="chips" id="chips" role="group" aria-label="Filter by group"></div>
@@ -381,7 +381,7 @@ function row(s){
     <h4>${esc(s.title)}</h4><span class="slug">${s.name}</span>
     <p>${esc(s.summary)}</p>
     <div class="acts">
-      <a class="btn small" href="downloads/${s.name}.zip" download>Add to Claude</a>
+      <a class="btn small" href="https://github.com/kal-eficia/ai-teaching-skills/releases/latest/download/${s.name}.zip">Add to Claude</a>
       <button class="link" data-open="${s.name}">Read</button>
       <button class="link" data-copy="${s.name}">Copy text</button>
       ${ex}
@@ -401,7 +401,7 @@ function render(){
 function open(name){
   const s = byName[name]; if (!s) return;
   $("#dtitle").textContent = s.title; $("#dbody").innerHTML = md(s.text);
-  $("#dcopy").dataset.copy = name; $("#dzip").href = `downloads/${name}.zip`; $("#dzip").setAttribute("download","");
+  $("#dcopy").dataset.copy = name; $("#dzip").href = `https://github.com/kal-eficia/ai-teaching-skills/releases/latest/download/${name}.zip`;
   $("#dlg").showModal(); $("#dbody").scrollTop = 0;
 }
 $("#chips").innerHTML = ["All", ...CATS.filter(c=>c!=="Start here")].map(c => `<button class="chip" aria-pressed="${c==="All"}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
