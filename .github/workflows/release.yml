@@ -1,14 +1,14 @@
 name: release
 
-# Push a tag like v1.2.0 to publish a release. Every skill is attached as its own zip,
-# plus one zip of the whole library, so GitHub counts each download.
+# Run this from the Actions tab (Run workflow, enter a version like v1.2.0), or push a tag.
+# Every skill is attached as its own zip, plus one zip of the whole library, so GitHub counts each download.
 on:
   push:
     tags: ["v*"]
   workflow_dispatch:
     inputs:
       tag:
-        description: "Tag to release (must already exist)"
+        description: "Version to release, e.g. v1.2.0 (the tag is created on the chosen branch)"
         required: true
 
 permissions:
@@ -19,8 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-        with:
-          ref: ${{ inputs.tag || github.ref }}
       - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
@@ -44,4 +42,4 @@ jobs:
           Browse and read every skill first at https://kal-eficia.github.io/ai-teaching-skills/
           NOTES
           sed -i "s/^COUNT/${n}/" notes.md
-          gh release create "$TAG" _site/downloads/*.zip --title "AI Teaching Skills $TAG" --notes-file notes.md
+          gh release create "$TAG" _site/downloads/*.zip --target "$GITHUB_SHA" --title "AI Teaching Skills $TAG" --notes-file notes.md
